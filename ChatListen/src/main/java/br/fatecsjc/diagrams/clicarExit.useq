@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence-diagram version="1.1.8" icons="true">  
+  <object id="1" language="java" name="br.fatecsjc.controller.FXMLController" project="ChatListen" 
+    file="/ChatListen/src/main/java/br/fatecsjc/controller/FXMLController.java" binary="false" label="fxmlController" 
+    type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="2">      
+      <position height="96" width="136" x="5" y="129"/>    
+    </execution>    
+    <execution id="4">      
+      <position height="24" width="136" x="5" y="177"/>    
+    </execution>  
+  </object>  
+  <message id="3" operation="bot_sair_Action(javafx.event.ActionEvent):void">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="4"/>  
+  </message>
+</sequence-diagram>

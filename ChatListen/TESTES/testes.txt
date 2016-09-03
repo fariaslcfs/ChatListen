@@ -1,0 +1,704 @@
+Teste RNA
+CO-3 TxApr-0.1 Fm-0.1 ErroAtr-0.1
+No --> Vector #0 - NPS --> 0,182820
+Yes --> Vector #1 - NPS --> 0,046563
+No --> Vector #2 - NPS --> 0,240536
+No --> Vector #3 - NPS --> 0,160515
+No --> Vector #4 - NPS --> 0,110801
+Yes --> Vector #5 - CYBER --> 0,008911
+No --> Vector #6 - CYBER --> 0,448834
+No --> Vector #7 - CYBER --> 0,100658
+Yes --> Vector #8 - CYBER --> 0,067092
+Yes --> Vector #9 - CYBER --> 0,022012
+No --> Vector #10 - CYBER --> 0,725536
+Yes --> Vector #11 - CYBER --> 0,087907
+Yes --> Vector #12 - CYBER --> 0,048981
+No --> Vector #13 - PRED --> 0,444171
+Yes --> Vector #14 - PRED --> 0,066758
+Yes --> Vector #15 - PRED --> 0,046192
+Yes --> Vector #16 - PRED --> 0,088345
+No --> Vector #17 - PRED --> 0,145307
+No --> Vector #18 - PRED --> 0,163398
+No --> Vector #19 - PRED --> 0,986974
+No --> Vector #20 - PRED --> 0,764380
+No --> Vector #21 - PRED --> 0,719508
+Yes --> Vector #22 - PRED --> 0,048388
+No --> Vector #23 - PRED --> 0,988860
+No --> Vector #24 - PRED --> 0,277758
+No --> Vector #25 - PRED --> 0,191400
+No --> Vector #26 - PRED --> 0,410794
+No --> Vector #27 - PRED --> 0,335287
+No --> Vector #28 - PRED --> 0,931888
+No --> Vector #29 - PRED --> 0,269483
+No --> Vector #30 - PRED --> 0,775400
+0,197989
+
+Teste RNA
+CO-3 TxApr-0.2 Fm-0.1 ErroAtr-0.1
+No --> Vector #0 - NPS --> 0,175879
+Yes --> Vector #1 - NPS --> 0,020900
+No --> Vector #2 - NPS --> 0,236242
+No --> Vector #3 - NPS --> 0,105786
+Yes --> Vector #4 - NPS --> 0,083915
+Yes --> Vector #5 - CYBER --> 0,001643
+No --> Vector #6 - CYBER --> 0,539867
+Yes --> Vector #7 - CYBER --> 0,032529
+Yes --> Vector #8 - CYBER --> 0,032175
+Yes --> Vector #9 - CYBER --> 0,006259
+No --> Vector #10 - CYBER --> 0,860913
+Yes --> Vector #11 - CYBER --> 0,050582
+Yes --> Vector #12 - CYBER --> 0,019757
+No --> Vector #13 - PRED --> 0,537467
+Yes --> Vector #14 - PRED --> 0,027478
+Yes --> Vector #15 - PRED --> 0,019276
+Yes --> Vector #16 - PRED --> 0,053570
+No --> Vector #17 - PRED --> 0,127381
+No --> Vector #18 - PRED --> 0,129939
+No --> Vector #19 - PRED --> 0,995947
+No --> Vector #20 - PRED --> 0,945991
+No --> Vector #21 - PRED --> 0,831419
+Yes --> Vector #22 - PRED --> 0,021966
+No --> Vector #23 - PRED --> 0,998225
+No --> Vector #24 - PRED --> 0,285776
+No --> Vector #25 - PRED --> 0,203338
+No --> Vector #26 - PRED --> 0,514759
+No --> Vector #27 - PRED --> 0,375051
+No --> Vector #28 - PRED --> 0,984531
+No --> Vector #29 - PRED --> 0,329536
+No --> Vector #30 - PRED --> 0,902506
+0,240812
+
+Teste RNA
+CO-3 TxApr-0.3 Fm-0.1 ErroAtr-0.1
+No --> Vector #0 - NPS --> 0,180959
+Yes --> Vector #1 - NPS --> 0,030125
+No --> Vector #2 - NPS --> 0,243223
+No --> Vector #3 - NPS --> 0,132122
+Yes --> Vector #4 - NPS --> 0,096321
+Yes --> Vector #5 - CYBER --> 0,003412
+No --> Vector #6 - CYBER --> 0,507597
+Yes --> Vector #7 - CYBER --> 0,054663
+Yes --> Vector #8 - CYBER --> 0,045690
+Yes --> Vector #9 - CYBER --> 0,010765
+No --> Vector #10 - CYBER --> 0,816620
+Yes --> Vector #11 - CYBER --> 0,063813
+Yes --> Vector #12 - CYBER --> 0,029271
+No --> Vector #13 - PRED --> 0,500761
+Yes --> Vector #14 - PRED --> 0,040821
+Yes --> Vector #15 - PRED --> 0,027779
+Yes --> Vector #16 - PRED --> 0,066972
+No --> Vector #17 - PRED --> 0,135347
+No --> Vector #18 - PRED --> 0,152589
+No --> Vector #19 - PRED --> 0,995780
+No --> Vector #20 - PRED --> 0,913547
+No --> Vector #21 - PRED --> 0,796419
+Yes --> Vector #22 - PRED --> 0,033590
+No --> Vector #23 - PRED --> 0,997616
+No --> Vector #24 - PRED --> 0,292230
+No --> Vector #25 - PRED --> 0,208918
+No --> Vector #26 - PRED --> 0,500740
+No --> Vector #27 - PRED --> 0,359661
+No --> Vector #28 - PRED --> 0,976871
+No --> Vector #29 - PRED --> 0,319310
+No --> Vector #30 - PRED --> 0,869863
+0,230075
+
+Teste RNA
+CO-3 TxApr-0.4 Fm-0.1 ErroAtr-0.1
+No --> Vector #0 - NPS --> 0,172680
+Yes --> Vector #1 - NPS --> 0,031005
+No --> Vector #2 - NPS --> 0,230099
+No --> Vector #3 - NPS --> 0,128270
+Yes --> Vector #4 - NPS --> 0,093977
+Yes --> Vector #5 - CYBER --> 0,003995
+No --> Vector #6 - CYBER --> 0,468546
+Yes --> Vector #7 - CYBER --> 0,055930
+Yes --> Vector #8 - CYBER --> 0,045643
+Yes --> Vector #9 - CYBER --> 0,011745
+No --> Vector #10 - CYBER --> 0,786641
+Yes --> Vector #11 - CYBER --> 0,062869
+Yes --> Vector #12 - CYBER --> 0,030197
+No --> Vector #13 - PRED --> 0,467464
+Yes --> Vector #14 - PRED --> 0,041823
+Yes --> Vector #15 - PRED --> 0,028786
+Yes --> Vector #16 - PRED --> 0,066340
+No --> Vector #17 - PRED --> 0,129897
+No --> Vector #18 - PRED --> 0,147971
+No --> Vector #19 - PRED --> 0,994965
+No --> Vector #20 - PRED --> 0,901293
+No --> Vector #21 - PRED --> 0,761342
+Yes --> Vector #22 - PRED --> 0,034439
+No --> Vector #23 - PRED --> 0,996892
+No --> Vector #24 - PRED --> 0,270824
+No --> Vector #25 - PRED --> 0,199616
+No --> Vector #26 - PRED --> 0,473977
+No --> Vector #27 - PRED --> 0,333253
+No --> Vector #28 - PRED --> 0,970851
+No --> Vector #29 - PRED --> 0,302443
+No --> Vector #30 - PRED --> 0,843982
+0,219161
+
+Teste RNA
+CO-3 TxApr-0.5 Fm-0.1 ErroAtr-0.1
+No --> Vector #0 - NPS --> 0,163998
+Yes --> Vector #1 - NPS --> 0,039969
+No --> Vector #2 - NPS --> 0,209542
+No --> Vector #3 - NPS --> 0,111185
+Yes --> Vector #4 - NPS --> 0,095657
+Yes --> Vector #5 - CYBER --> 0,012441
+No --> Vector #6 - CYBER --> 0,460823
+Yes --> Vector #7 - CYBER --> 0,048840
+Yes --> Vector #8 - CYBER --> 0,051113
+Yes --> Vector #9 - CYBER --> 0,021332
+No --> Vector #10 - CYBER --> 0,832620
+Yes --> Vector #11 - CYBER --> 0,065771
+Yes --> Vector #12 - CYBER --> 0,038010
+No --> Vector #13 - PRED --> 0,456731
+Yes --> Vector #14 - PRED --> 0,045751
+Yes --> Vector #15 - PRED --> 0,037226
+Yes --> Vector #16 - PRED --> 0,070533
+No --> Vector #17 - PRED --> 0,126642
+No --> Vector #18 - PRED --> 0,134306
+No --> Vector #19 - PRED --> 0,998867
+No --> Vector #20 - PRED --> 0,961773
+No --> Vector #21 - PRED --> 0,789733
+Yes --> Vector #22 - PRED --> 0,043068
+No --> Vector #23 - PRED --> 0,999675
+No --> Vector #24 - PRED --> 0,253327
+No --> Vector #25 - PRED --> 0,195750
+No --> Vector #26 - PRED --> 0,470827
+No --> Vector #27 - PRED --> 0,312209
+No --> Vector #28 - PRED --> 0,991608
+No --> Vector #29 - PRED --> 0,301468
+No --> Vector #30 - PRED --> 0,894152
+0,229193
+
+Teste RNA
+CO-3 TxApr-0.6 Fm-0.1 ErroAtr-0.1
+No --> Vector #0 - NPS --> 0,167988
+Yes --> Vector #1 - NPS --> 0,038611
+No --> Vector #2 - NPS --> 0,214495
+No --> Vector #3 - NPS --> 0,114872
+Yes --> Vector #4 - NPS --> 0,097051
+Yes --> Vector #5 - CYBER --> 0,010065
+No --> Vector #6 - CYBER --> 0,461717
+Yes --> Vector #7 - CYBER --> 0,049306
+Yes --> Vector #8 - CYBER --> 0,050526
+Yes --> Vector #9 - CYBER --> 0,019102
+No --> Vector #10 - CYBER --> 0,824968
+Yes --> Vector #11 - CYBER --> 0,065214
+Yes --> Vector #12 - CYBER --> 0,036424
+No --> Vector #13 - PRED --> 0,457222
+Yes --> Vector #14 - PRED --> 0,044916
+Yes --> Vector #15 - PRED --> 0,035551
+Yes --> Vector #16 - PRED --> 0,070577
+No --> Vector #17 - PRED --> 0,128749
+No --> Vector #18 - PRED --> 0,140358
+No --> Vector #19 - PRED --> 0,998883
+No --> Vector #20 - PRED --> 0,958767
+No --> Vector #21 - PRED --> 0,783036
+Yes --> Vector #22 - PRED --> 0,042847
+No --> Vector #23 - PRED --> 0,999690
+No --> Vector #24 - PRED --> 0,259623
+No --> Vector #25 - PRED --> 0,203235
+No --> Vector #26 - PRED --> 0,479949
+No --> Vector #27 - PRED --> 0,316663
+No --> Vector #28 - PRED --> 0,990666
+No --> Vector #29 - PRED --> 0,309874
+No --> Vector #30 - PRED --> 0,887430
+0,228786
+
+Teste RNA
+CO-3 TxApr-0.7 Fm-0.1 ErroAtr-0.1
+No --> Vector #0 - NPS --> 0,163410
+Yes --> Vector #1 - NPS --> 0,039533
+No --> Vector #2 - NPS --> 0,207370
+No --> Vector #3 - NPS --> 0,110128
+Yes --> Vector #4 - NPS --> 0,095708
+Yes --> Vector #5 - CYBER --> 0,011603
+No --> Vector #6 - CYBER --> 0,452185
+Yes --> Vector #7 - CYBER --> 0,047351
+Yes --> Vector #8 - CYBER --> 0,050718
+Yes --> Vector #9 - CYBER --> 0,020574
+No --> Vector #10 - CYBER --> 0,826295
+Yes --> Vector #11 - CYBER --> 0,064842
+Yes --> Vector #12 - CYBER --> 0,037261
+No --> Vector #13 - PRED --> 0,447478
+Yes --> Vector #14 - PRED --> 0,044862
+Yes --> Vector #15 - PRED --> 0,036511
+Yes --> Vector #16 - PRED --> 0,070287
+No --> Vector #17 - PRED --> 0,126025
+No --> Vector #18 - PRED --> 0,134549
+No --> Vector #19 - PRED --> 0,999218
+No --> Vector #20 - PRED --> 0,965974
+No --> Vector #21 - PRED --> 0,780299
+Yes --> Vector #22 - PRED --> 0,043205
+No --> Vector #23 - PRED --> 0,999828
+No --> Vector #24 - PRED --> 0,253089
+No --> Vector #25 - PRED --> 0,199328
+No --> Vector #26 - PRED --> 0,473508
+No --> Vector #27 - PRED --> 0,306613
+No --> Vector #28 - PRED --> 0,992560
+No --> Vector #29 - PRED --> 0,304197
+No --> Vector #30 - PRED --> 0,891087
+0,228031
+
+Teste RNA
+CO-3 TxApr-0.8 Fm-0.1 ErroAtr-0.1
+No --> Vector #0 - NPS --> 0,159886
+Yes --> Vector #1 - NPS --> 0,040439
+No --> Vector #2 - NPS --> 0,202190
+No --> Vector #3 - NPS --> 0,107091
+Yes --> Vector #4 - NPS --> 0,094648
+Yes --> Vector #5 - CYBER --> 0,013157
+No --> Vector #6 - CYBER --> 0,452405
+Yes --> Vector #7 - CYBER --> 0,046608
+Yes --> Vector #8 - CYBER --> 0,051140
+Yes --> Vector #9 - CYBER --> 0,021983
+No --> Vector #10 - CYBER --> 0,836082
+Yes --> Vector #11 - CYBER --> 0,064760
+Yes --> Vector #12 - CYBER --> 0,038160
+No --> Vector #13 - PRED --> 0,445111
+Yes --> Vector #14 - PRED --> 0,045144
+Yes --> Vector #15 - PRED --> 0,037434
+Yes --> Vector #16 - PRED --> 0,070137
+No --> Vector #17 - PRED --> 0,123913
+No --> Vector #18 - PRED --> 0,130542
+No --> Vector #19 - PRED --> 0,999509
+No --> Vector #20 - PRED --> 0,972242
+No --> Vector #21 - PRED --> 0,788517
+Yes --> Vector #22 - PRED --> 0,043927
+No --> Vector #23 - PRED --> 0,999919
+No --> Vector #24 - PRED --> 0,249709
+No --> Vector #25 - PRED --> 0,195400
+No --> Vector #26 - PRED --> 0,470813
+No --> Vector #27 - PRED --> 0,302177
+No --> Vector #28 - PRED --> 0,994748
+No --> Vector #29 - PRED --> 0,300894
+No --> Vector #30 - PRED --> 0,901166
+0,229537
+
+Teste RNA
+CO-3 TxApr-0.9 Fm-0.1 ErroAtr-0.1
+No --> Vector #0 - NPS --> 0,156897
+Yes --> Vector #1 - NPS --> 0,041347
+No --> Vector #2 - NPS --> 0,198210
+No --> Vector #3 - NPS --> 0,105097
+Yes --> Vector #4 - NPS --> 0,093462
+Yes --> Vector #5 - CYBER --> 0,014835
+No --> Vector #6 - CYBER --> 0,452783
+Yes --> Vector #7 - CYBER --> 0,047023
+Yes --> Vector #8 - CYBER --> 0,051552
+Yes --> Vector #9 - CYBER --> 0,023513
+No --> Vector #10 - CYBER --> 0,848338
+Yes --> Vector #11 - CYBER --> 0,064589
+Yes --> Vector #12 - CYBER --> 0,039070
+No --> Vector #13 - PRED --> 0,444665
+Yes --> Vector #14 - PRED --> 0,045774
+Yes --> Vector #15 - PRED --> 0,038431
+Yes --> Vector #16 - PRED --> 0,069736
+No --> Vector #17 - PRED --> 0,122003
+No --> Vector #18 - PRED --> 0,128166
+No --> Vector #19 - PRED --> 0,999711
+No --> Vector #20 - PRED --> 0,977832
+No --> Vector #21 - PRED --> 0,800499
+Yes --> Vector #22 - PRED --> 0,044865
+No --> Vector #23 - PRED --> 0,999963
+No --> Vector #24 - PRED --> 0,245104
+No --> Vector #25 - PRED --> 0,191606
+No --> Vector #26 - PRED --> 0,468729
+No --> Vector #27 - PRED --> 0,298611
+No --> Vector #28 - PRED --> 0,996476
+No --> Vector #29 - PRED --> 0,296495
+No --> Vector #30 - PRED --> 0,912957
+0,231524
+
+Teste RNA
+CO-3 TxApr-0.1 Fm-0.2 ErroAtr-0.1
+No --> Vector #0 - NPS --> 0,129957
+Yes --> Vector #1 - NPS --> 0,019369
+No --> Vector #2 - NPS --> 0,178718
+Yes --> Vector #3 - NPS --> 0,091386
+Yes --> Vector #4 - NPS --> 0,065598
+Yes --> Vector #5 - CYBER --> 0,001854
+No --> Vector #6 - CYBER --> 0,424108
+Yes --> Vector #7 - CYBER --> 0,037953
+Yes --> Vector #8 - CYBER --> 0,030189
+Yes --> Vector #9 - CYBER --> 0,006636
+No --> Vector #10 - CYBER --> 0,766524
+Yes --> Vector #11 - CYBER --> 0,044577
+Yes --> Vector #12 - CYBER --> 0,019460
+No --> Vector #13 - PRED --> 0,417662
+Yes --> Vector #14 - PRED --> 0,027479
+Yes --> Vector #15 - PRED --> 0,018483
+Yes --> Vector #16 - PRED --> 0,046340
+Yes --> Vector #17 - PRED --> 0,095529
+No --> Vector #18 - PRED --> 0,101966
+No --> Vector #19 - PRED --> 0,993466
+No --> Vector #20 - PRED --> 0,859160
+No --> Vector #21 - PRED --> 0,745259
+Yes --> Vector #22 - PRED --> 0,020058
+No --> Vector #23 - PRED --> 0,996573
+No --> Vector #24 - PRED --> 0,218308
+No --> Vector #25 - PRED --> 0,142755
+No --> Vector #26 - PRED --> 0,382451
+No --> Vector #27 - PRED --> 0,285895
+No --> Vector #28 - PRED --> 0,965939
+No --> Vector #29 - PRED --> 0,227427
+No --> Vector #30 - PRED --> 0,826208
+0,202219
+
+Teste RNA
+CO-3 TxApr-0.1 Fm-0.3 ErroAtr-0.1
+No --> Vector #0 - NPS --> 0,141776
+Yes --> Vector #1 - NPS --> 0,018395
+No --> Vector #2 - NPS --> 0,199229
+Yes --> Vector #3 - NPS --> 0,097105
+Yes --> Vector #4 - NPS --> 0,068999
+Yes --> Vector #5 - CYBER --> 0,001550
+No --> Vector #6 - CYBER --> 0,473485
+Yes --> Vector #7 - CYBER --> 0,035692
+Yes --> Vector #8 - CYBER --> 0,029168
+Yes --> Vector #9 - CYBER --> 0,005803
+No --> Vector #10 - CYBER --> 0,810827
+Yes --> Vector #11 - CYBER --> 0,044974
+Yes --> Vector #12 - CYBER --> 0,018302
+No --> Vector #13 - PRED --> 0,467352
+Yes --> Vector #14 - PRED --> 0,026337
+Yes --> Vector #15 - PRED --> 0,017463
+Yes --> Vector #16 - PRED --> 0,045895
+No --> Vector #17 - PRED --> 0,103770
+No --> Vector #18 - PRED --> 0,109329
+No --> Vector #19 - PRED --> 0,994690
+No --> Vector #20 - PRED --> 0,895259
+No --> Vector #21 - PRED --> 0,786822
+Yes --> Vector #22 - PRED --> 0,019452
+No --> Vector #23 - PRED --> 0,997181
+No --> Vector #24 - PRED --> 0,242831
+No --> Vector #25 - PRED --> 0,157840
+No --> Vector #26 - PRED --> 0,432524
+No --> Vector #27 - PRED --> 0,319834
+No --> Vector #28 - PRED --> 0,974767
+No --> Vector #29 - PRED --> 0,259472
+No --> Vector #30 - PRED --> 0,861748
+0,217510
+
+Teste RNA
+CO-3 TxApr-0.1 Fm-0.4 ErroAtr-0.1
+No --> Vector #0 - NPS --> 0,131306
+Yes --> Vector #1 - NPS --> 0,016911
+No --> Vector #2 - NPS --> 0,185029
+Yes --> Vector #3 - NPS --> 0,088316
+Yes --> Vector #4 - NPS --> 0,063435
+Yes --> Vector #5 - CYBER --> 0,001451
+No --> Vector #6 - CYBER --> 0,452185
+Yes --> Vector #7 - CYBER --> 0,031433
+Yes --> Vector #8 - CYBER --> 0,026883
+Yes --> Vector #9 - CYBER --> 0,005319
+No --> Vector #10 - CYBER --> 0,803545
+Yes --> Vector #11 - CYBER --> 0,040106
+Yes --> Vector #12 - CYBER --> 0,016495
+No --> Vector #13 - PRED --> 0,445148
+Yes --> Vector #14 - PRED --> 0,023613
+Yes --> Vector #15 - PRED --> 0,015580
+Yes --> Vector #16 - PRED --> 0,042333
+Yes --> Vector #17 - PRED --> 0,094126
+No --> Vector #18 - PRED --> 0,103147
+No --> Vector #19 - PRED --> 0,996003
+No --> Vector #20 - PRED --> 0,908189
+No --> Vector #21 - PRED --> 0,779783
+Yes --> Vector #22 - PRED --> 0,018395
+No --> Vector #23 - PRED --> 0,997975
+No --> Vector #24 - PRED --> 0,229572
+No --> Vector #25 - PRED --> 0,152024
+No --> Vector #26 - PRED --> 0,430116
+No --> Vector #27 - PRED --> 0,298494
+No --> Vector #28 - PRED --> 0,977954
+No --> Vector #29 - PRED --> 0,251708
+No --> Vector #30 - PRED --> 0,862797
+0,215254
+
+Teste RNA
+CO-3 TxApr-0.1 Fm-0.5 ErroAtr-0.1
+No --> Vector #0 - NPS --> 0,118269
+Yes --> Vector #1 - NPS --> 0,017711
+No --> Vector #2 - NPS --> 0,167384
+Yes --> Vector #3 - NPS --> 0,085243
+Yes --> Vector #4 - NPS --> 0,058789
+Yes --> Vector #5 - CYBER --> 0,002208
+No --> Vector #6 - CYBER --> 0,400110
+Yes --> Vector #7 - CYBER --> 0,034888
+Yes --> Vector #8 - CYBER --> 0,026923
+Yes --> Vector #9 - CYBER --> 0,006518
+No --> Vector #10 - CYBER --> 0,767444
+Yes --> Vector #11 - CYBER --> 0,038499
+Yes --> Vector #12 - CYBER --> 0,017425
+No --> Vector #13 - PRED --> 0,399993
+Yes --> Vector #14 - PRED --> 0,024846
+Yes --> Vector #15 - PRED --> 0,016578
+Yes --> Vector #16 - PRED --> 0,039954
+Yes --> Vector #17 - PRED --> 0,085430
+Yes --> Vector #18 - PRED --> 0,097499
+No --> Vector #19 - PRED --> 0,996225
+No --> Vector #20 - PRED --> 0,890030
+No --> Vector #21 - PRED --> 0,740817
+Yes --> Vector #22 - PRED --> 0,019480
+No --> Vector #23 - PRED --> 0,997518
+No --> Vector #24 - PRED --> 0,201805
+No --> Vector #25 - PRED --> 0,136846
+No --> Vector #26 - PRED --> 0,395116
+No --> Vector #27 - PRED --> 0,263662
+No --> Vector #28 - PRED --> 0,973069
+No --> Vector #29 - PRED --> 0,223645
+No --> Vector #30 - PRED --> 0,833482
+0,202925
+
+Teste RNA
+CO-3 TxApr-0.1 Fm-0.6 ErroAtr-0.1
+No --> Vector #0 - NPS --> 0,115045
+Yes --> Vector #1 - NPS --> 0,011178
+No --> Vector #2 - NPS --> 0,168142
+Yes --> Vector #3 - NPS --> 0,069641
+Yes --> Vector #4 - NPS --> 0,050033
+Yes --> Vector #5 - CYBER --> 0,000806
+No --> Vector #6 - CYBER --> 0,452999
+Yes --> Vector #7 - CYBER --> 0,019908
+Yes --> Vector #8 - CYBER --> 0,017981
+Yes --> Vector #9 - CYBER --> 0,003142
+No --> Vector #10 - CYBER --> 0,845645
+Yes --> Vector #11 - CYBER --> 0,028074
+Yes --> Vector #12 - CYBER --> 0,010472
+No --> Vector #13 - PRED --> 0,452331
+Yes --> Vector #14 - PRED --> 0,015456
+Yes --> Vector #15 - PRED --> 0,010042
+Yes --> Vector #16 - PRED --> 0,030399
+Yes --> Vector #17 - PRED --> 0,078248
+Yes --> Vector #18 - PRED --> 0,088585
+No --> Vector #19 - PRED --> 0,998617
+No --> Vector #20 - PRED --> 0,955041
+No --> Vector #21 - PRED --> 0,810425
+Yes --> Vector #22 - PRED --> 0,012741
+No --> Vector #23 - PRED --> 0,999381
+No --> Vector #24 - PRED --> 0,212916
+No --> Vector #25 - PRED --> 0,144622
+No --> Vector #26 - PRED --> 0,462163
+No --> Vector #27 - PRED --> 0,283908
+No --> Vector #28 - PRED --> 0,989672
+No --> Vector #29 - PRED --> 0,256972
+No --> Vector #30 - PRED --> 0,899910
+0,224890
+
+Teste RNA
+CO-3 TxApr-0.1 Fm-0.7 ErroAtr-0.1
+Yes --> Vector #0 - NPS --> 0,091569
+Yes --> Vector #1 - NPS --> 0,009303
+No --> Vector #2 - NPS --> 0,139005
+Yes --> Vector #3 - NPS --> 0,056362
+Yes --> Vector #4 - NPS --> 0,038894
+Yes --> Vector #5 - CYBER --> 0,001088
+No --> Vector #6 - CYBER --> 0,414796
+Yes --> Vector #7 - CYBER --> 0,016926
+Yes --> Vector #8 - CYBER --> 0,014810
+Yes --> Vector #9 - CYBER --> 0,003084
+No --> Vector #10 - CYBER --> 0,832585
+Yes --> Vector #11 - CYBER --> 0,022086
+Yes --> Vector #12 - CYBER --> 0,008816
+No --> Vector #13 - PRED --> 0,411249
+Yes --> Vector #14 - PRED --> 0,012775
+Yes --> Vector #15 - PRED --> 0,008343
+Yes --> Vector #16 - PRED --> 0,024184
+Yes --> Vector #17 - PRED --> 0,060429
+Yes --> Vector #18 - PRED --> 0,071857
+No --> Vector #19 - PRED --> 0,997759
+No --> Vector #20 - PRED --> 0,949581
+No --> Vector #21 - PRED --> 0,801179
+Yes --> Vector #22 - PRED --> 0,010743
+No --> Vector #23 - PRED --> 0,998654
+No --> Vector #24 - PRED --> 0,182346
+No --> Vector #25 - PRED --> 0,117993
+No --> Vector #26 - PRED --> 0,430639
+No --> Vector #27 - PRED --> 0,246122
+No --> Vector #28 - PRED --> 0,987509
+No --> Vector #29 - PRED --> 0,219406
+No --> Vector #30 - PRED --> 0,893946
+0,217089
+
+Teste RNA
+CO-3 TxApr-0.1 Fm-0.8 ErroAtr-0.1
+Yes --> Vector #0 - NPS --> 0,079943
+Yes --> Vector #1 - NPS --> 0,006084
+No --> Vector #2 - NPS --> 0,125355
+Yes --> Vector #3 - NPS --> 0,042473
+Yes --> Vector #4 - NPS --> 0,030207
+Yes --> Vector #5 - CYBER --> 0,000575
+No --> Vector #6 - CYBER --> 0,457190
+Yes --> Vector #7 - CYBER --> 0,010519
+Yes --> Vector #8 - CYBER --> 0,009951
+Yes --> Vector #9 - CYBER --> 0,001812
+No --> Vector #10 - CYBER --> 0,900412
+Yes --> Vector #11 - CYBER --> 0,015990
+Yes --> Vector #12 - CYBER --> 0,005712
+No --> Vector #13 - PRED --> 0,449371
+Yes --> Vector #14 - PRED --> 0,008346
+Yes --> Vector #15 - PRED --> 0,005464
+Yes --> Vector #16 - PRED --> 0,017786
+Yes --> Vector #17 - PRED --> 0,050541
+Yes --> Vector #18 - PRED --> 0,056028
+No --> Vector #19 - PRED --> 0,999705
+No --> Vector #20 - PRED --> 0,979087
+No --> Vector #21 - PRED --> 0,870361
+Yes --> Vector #22 - PRED --> 0,006915
+No --> Vector #23 - PRED --> 0,999873
+No --> Vector #24 - PRED --> 0,174073
+No --> Vector #25 - PRED --> 0,104504
+No --> Vector #26 - PRED --> 0,447174
+No --> Vector #27 - PRED --> 0,251117
+No --> Vector #28 - PRED --> 0,996879
+No --> Vector #29 - PRED --> 0,213931
+No --> Vector #30 - PRED --> 0,944531
+0,232401
+
+Teste RNA
+CO-3 TxApr-0.1 Fm-0.9 ErroAtr-0.1
+Yes --> Vector #0 - NPS --> 0,025509
+Yes --> Vector #1 - NPS --> 0,000847
+Yes --> Vector #2 - NPS --> 0,068789
+Yes --> Vector #3 - NPS --> 0,019752
+Yes --> Vector #4 - NPS --> 0,005977
+Yes --> Vector #5 - CYBER --> 0,000079
+No --> Vector #6 - CYBER --> 0,411572
+Yes --> Vector #7 - CYBER --> 0,005101
+Yes --> Vector #8 - CYBER --> 0,001696
+Yes --> Vector #9 - CYBER --> 0,000234
+No --> Vector #10 - CYBER --> 0,978167
+Yes --> Vector #11 - CYBER --> 0,002643
+Yes --> Vector #12 - CYBER --> 0,000836
+No --> Vector #13 - PRED --> 0,449620
+Yes --> Vector #14 - PRED --> 0,001717
+Yes --> Vector #15 - PRED --> 0,000743
+Yes --> Vector #16 - PRED --> 0,002845
+Yes --> Vector #17 - PRED --> 0,011546
+Yes --> Vector #18 - PRED --> 0,028267
+No --> Vector #19 - PRED --> 1,000000
+No --> Vector #20 - PRED --> 0,998946
+No --> Vector #21 - PRED --> 0,971194
+Yes --> Vector #22 - PRED --> 0,001234
+No --> Vector #23 - PRED --> 1,000000
+Yes --> Vector #24 - PRED --> 0,096573
+Yes --> Vector #25 - PRED --> 0,045056
+No --> Vector #26 - PRED --> 0,623077
+No --> Vector #27 - PRED --> 0,161143
+No --> Vector #28 - PRED --> 0,999977
+No --> Vector #29 - PRED --> 0,144079
+No --> Vector #30 - PRED --> 0,993259
+0,248680
+
+
+Teste RNA
+CO-2 TxApr-0.1 Fm-0.2 ErroAtr-0.1
+No --> Vector #0 - NPS --> 0,167252
+Yes --> Vector #1 - NPS --> 0,034647
+No --> Vector #2 - NPS --> 0,222945
+No --> Vector #3 - NPS --> 0,135386
+Yes --> Vector #4 - NPS --> 0,094220
+Yes --> Vector #5 - CYBER --> 0,005626
+No --> Vector #6 - CYBER --> 0,450610
+Yes --> Vector #7 - CYBER --> 0,072591
+Yes --> Vector #8 - CYBER --> 0,050756
+Yes --> Vector #9 - CYBER --> 0,014912
+No --> Vector #10 - CYBER --> 0,757917
+Yes --> Vector #11 - CYBER --> 0,069584
+Yes --> Vector #12 - CYBER --> 0,035795
+No --> Vector #13 - PRED --> 0,448294
+Yes --> Vector #14 - PRED --> 0,049725
+Yes --> Vector #15 - PRED --> 0,034070
+Yes --> Vector #16 - PRED --> 0,072592
+No --> Vector #17 - PRED --> 0,128528
+No --> Vector #18 - PRED --> 0,144232
+No --> Vector #19 - PRED --> 0,991644
+No --> Vector #20 - PRED --> 0,828788
+No --> Vector #21 - PRED --> 0,742200
+Yes --> Vector #22 - PRED --> 0,036511
+No --> Vector #23 - PRED --> 0,993692
+No --> Vector #24 - PRED --> 0,261416
+No --> Vector #25 - PRED --> 0,179938
+No --> Vector #26 - PRED --> 0,421064
+No --> Vector #27 - PRED --> 0,325442
+No --> Vector #28 - PRED --> 0,954101
+No --> Vector #29 - PRED --> 0,267523
+No --> Vector #30 - PRED --> 0,809934
+0,205698
+
+
+
+Teste RNA
+CO-4 TxApr-0.1 Fm-0.2 ErroAtr-0.1
+No --> Vector #0 - NPS --> 0,131499
+Yes --> Vector #1 - NPS --> 0,020326
+No --> Vector #2 - NPS --> 0,181063
+Yes --> Vector #3 - NPS --> 0,094471
+Yes --> Vector #4 - NPS --> 0,067003
+Yes --> Vector #5 - CYBER --> 0,001982
+No --> Vector #6 - CYBER --> 0,418867
+Yes --> Vector #7 - CYBER --> 0,041013
+Yes --> Vector #8 - CYBER --> 0,031593
+Yes --> Vector #9 - CYBER --> 0,007081
+No --> Vector #10 - CYBER --> 0,760028
+Yes --> Vector #11 - CYBER --> 0,045912
+Yes --> Vector #12 - CYBER --> 0,020450
+No --> Vector #13 - PRED --> 0,413126
+Yes --> Vector #14 - PRED --> 0,028904
+Yes --> Vector #15 - PRED --> 0,019360
+Yes --> Vector #16 - PRED --> 0,047297
+Yes --> Vector #17 - PRED --> 0,096601
+No --> Vector #18 - PRED --> 0,104821
+No --> Vector #19 - PRED --> 0,993081
+No --> Vector #20 - PRED --> 0,850976
+No --> Vector #21 - PRED --> 0,739841
+Yes --> Vector #22 - PRED --> 0,021321
+No --> Vector #23 - PRED --> 0,996152
+No --> Vector #24 - PRED --> 0,220847
+No --> Vector #25 - PRED --> 0,145574
+No --> Vector #26 - PRED --> 0,381435
+No --> Vector #27 - PRED --> 0,286494
+No --> Vector #28 - PRED --> 0,963292
+No --> Vector #29 - PRED --> 0,227105
+No --> Vector #30 - PRED --> 0,819329
+0,200502
+
+
+Teste RNA
+CO-1 TxApr-0.1 Fm-0.2 ErroAtr-0.1
+No --> Vector #0 - NPS --> 0,128085
+Yes --> Vector #1 - NPS --> 0,019533
+No --> Vector #2 - NPS --> 0,178249
+Yes --> Vector #3 - NPS --> 0,093042
+Yes --> Vector #4 - NPS --> 0,065216
+Yes --> Vector #5 - CYBER --> 0,002041
+No --> Vector #6 - CYBER --> 0,423447
+Yes --> Vector #7 - CYBER --> 0,040160
+Yes --> Vector #8 - CYBER --> 0,030529
+Yes --> Vector #9 - CYBER --> 0,006893
+No --> Vector #10 - CYBER --> 0,755218
+Yes --> Vector #11 - CYBER --> 0,045273
+Yes --> Vector #12 - CYBER --> 0,019758
+No --> Vector #13 - PRED --> 0,414714
+Yes --> Vector #14 - PRED --> 0,027915
+Yes --> Vector #15 - PRED --> 0,018815
+Yes --> Vector #16 - PRED --> 0,045062
+Yes --> Vector #17 - PRED --> 0,095521
+No --> Vector #18 - PRED --> 0,100879
+No --> Vector #19 - PRED --> 0,989407
+No --> Vector #20 - PRED --> 0,831915
+No --> Vector #21 - PRED --> 0,734581
+Yes --> Vector #22 - PRED --> 0,020042
+No --> Vector #23 - PRED --> 0,993424
+No --> Vector #24 - PRED --> 0,219342
+No --> Vector #25 - PRED --> 0,140024
+No --> Vector #26 - PRED --> 0,374711
+No --> Vector #27 - PRED --> 0,285574
+No --> Vector #28 - PRED --> 0,955387
+No --> Vector #29 - PRED --> 0,221501
+No --> Vector #30 - PRED --> 0,811245
+0,197360
+

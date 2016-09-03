@@ -1,0 +1,937 @@
+(uui)_jj universal_nnp usb_nnp installer_nnp �2009-2015_cd lance_nnp http://www.pendrivelinux.com_nn
+this_dt open_nnp source_nn tool_nn falls_vbz under_in the_dt gnu_nnp general_nnp public_nnp license_nnp version_nnp 2_cd
+source_nn code_nnp is_vbz made_vbn available_jj at_in time_nn of_in download,_nn from_in the_dt official_jj uui_nnp page:_nn
+http://www.pendrivelinux.com/universal-usb-installer-easy-as-1-2-3/_.
+
+important!_nnp no_dt warranty_nnp is_vbz being_vbg offered_vbn with_in this_dt tool:_nn
+
+this_dt program_nn is_vbz distributed_vbn in_in the_dt hope_nn that_in it_prp will_md be_vb useful,_vbn
+but_cc without_nnp any_nnp warranty;_nnp without_in even_rb the_dt implied_vbn warranty_nn of_in
+merchantability_nn or_cc fitness_nnp for_in a_dt particular_nn purpose._.
+
+the_dt entire_nnp risk_nnp as_in to_to the_dt quality_nn and_cc performance_nn of_in the_dt program_nn
+is_prp$ with_nnp you._nnp should_nnp the_dt program_nn prove_jj defective,_in you_prp assume_vbp the_dt cost_nn of_in
+all_nnp necessary_nnp servicing,_nnp repair_nnp or_nn correction._.
+
+by_in proceeding_vbg to_to use_vb this_dt tool,_nn you_prp agree_vbp not_rb to_to hold_vb it's_dt author_nn accountable_nn
+for_in any_dt damages_nns that_wdt could_md potentially_rb arise_vb from_in it's_dt use_nn or_cc misuse._nn
+
+----------------------------------------------------------------------------------------------------_:
+third_nnp party_nnp unmodified_nnp tools_nnp used:_.
+
+7-zip_jj is_vbz �_vbn igor_nnp pavlovis_nnp http://7-zip.org_.
+syslinux_nnp �_nnp h._nnp peter_nnp anvin_nnp http://syslinux.zytor.com_nn
+dd.exe_jj �_nn john_nnp newbigin_nnp http://www.chrysocome.net/dd_.
+mke2fs.exe_jj �_nn matt_nnp wu_nnp http://ext2fsd.sourceforge.net_.
+grldr_nn grub4dos_nnp �_vbd the_dt gna!_jj people_nns http://www.gnu.org/software/grub_nn
+fat32format.exe_jj �_nnp tom_nnp thornhill_nnp http://www.ridgecrop.demon.co.uk_rb
+
+uui,_nnp syslinux,_nnp dd,_, mke2fs,_cd grub4dos,_nnp fat32format.exe_jj covered_vbn under_in gnu_nnp gpl:_.
+7-zip_nn is_vbz covered_vbn under_in a_dt lgpl_nnp +_nnp aes_nnp license_nnp -_: see_vbp the_dt license_nn following_vbg gnu_nnp gpl:_nnp
+
+----------------------------------------------------------------------------------------------------_:
+
+gnu_nnp general_nnp public_nnp license_nnp
+version_nnp 2,_cd june_nnp 1991_cd
+
+copyright_nn (c)_in 1989,_cd 1991_cd free_nnp software_nnp foundation,_nnp inc._nnp
+59_cd temple_nnp place,_nnp suite_nnp 330,_cd boston,_nnp ma_nnp 02111-1307_cd usa_nnp
+everyone_nn is_vbz permitted_vbn to_to copy_vb and_cc distribute_vb verbatim_jj copies_nns
+of_in this_dt license_nn document,_nn but_cc changing_vbg it_prp is_vbz not_rb allowed._vbn
+
+preamble_nn
+
+the_dt licenses_nns for_in most_jjs software_nn are_vbp designed_vbn to_to take_vb away_rb your_prp$
+freedom_nn to_to share_nn and_cc change_nn it._. by_in contrast,_vbg the_dt gnu_nnp general_nnp public_nnp
+license_nn is_vbz intended_vbn to_to guarantee_vb your_prp$ freedom_nn to_to share_nn and_cc change_vb free_jj
+software--to_nn make_vbp sure_jj the_dt software_nn is_vbz free_jj for_in all_dt its_prp$ users._'' this_dt
+general_nnp public_nnp license_nnp applies_vbz to_to most_jjs of_in the_dt free_nnp software_nnp
+foundation's_nnp software_nn and_cc to_to any_dt other_jj program_nn whose_wp$ authors_nns commit_vbp to_to
+using_vbg it._prp (some_dt other_jj free_nnp software_nnp foundation_nnp software_nn is_vbz covered_vbn by_in
+the_dt gnu_nnp library_nnp general_nnp public_nnp license_nnp instead.)_nn you_prp can_md apply_vb it_prp to_to
+your_prp$ programs,_nn too._.
+
+when_wrb we_prp speak_vbp of_in free_jj software,_nn we_prp are_vbp referring_vbg to_to freedom,_vb not_rb
+price._nn our_prp$ general_nnp public_nnp licenses_nnp are_vbp designed_vbn to_to make_vb sure_jj that_in you_prp
+have_vbp the_dt freedom_nn to_to distribute_vb copies_nns of_in free_jj software_nn (and_cc charge_nn for_in
+this_dt service_nn if_in you_prp wish),_vbp that_in you_prp receive_vbp source_nn code_nn or_cc can_md get_vb it_prp
+if_in you_prp want_vbp it,_prp that_in you_prp can_md change_vb the_dt software_nn or_cc use_vb pieces_nns of_in it_prp
+in_in new_jj free_jj programs;_nn and_cc that_in you_prp know_vbp you_prp can_md do_vb these_dt things._.
+
+to_to protect_vb your_prp$ rights,_nn we_prp need_vbp to_to make_vb restrictions_nns that_in forbid_nn
+anyone_nn to_to deny_vb you_prp these_dt rights_nns or_cc to_to ask_vb you_prp to_to surrender_vb the_dt rights._nn
+these_dt restrictions_nns translate_vb to_to certain_jj responsibilities_nns for_in you_prp if_in you_prp
+distribute_vb copies_nns of_in the_dt software,_nn or_cc if_in you_prp modify_vb it._.
+
+for_in example,_nn if_in you_prp distribute_vbp copies_nns of_in such_jj a_dt program,_nn whether_in
+gratis_nn or_cc for_in a_dt fee,_nn you_prp must_md give_vb the_dt recipients_nns all_dt the_dt rights_nns that_wdt
+you_prp have._vbd you_prp must_md make_vb sure_jj that_in they,_dt too,_nns receive_vbp or_cc can_md get_vb the_dt
+source_nn code._md and_cc you_prp must_md show_vb them_prp these_dt terms_nns so_rb they_prp know_vbp their_prp$
+rights._.
+
+we_prp protect_vbp your_prp$ rights_nns with_in two_cd steps:_nns (1)_vbd copyright_nn the_dt software,_nn and_cc
+(2)_jj offer_nn you_prp this_dt license_nn which_wdt gives_vbz you_prp legal_jj permission_nn to_to copy,_vb
+distribute_vb and/or_cc modify_vb the_dt software._nn
+
+also,_rb for_in each_dt author's_jj protection_nn and_cc ours,_nn we_prp want_vbp to_to make_vb certain_jj
+that_in everyone_nn understands_vbz that_in there_ex is_vbz no_dt warranty_nn for_in this_dt free_jj
+software._nn if_in the_dt software_nn is_vbz modified_vbn by_in someone_nn else_rb and_cc passed_vbd on,_in we_prp
+want_vb its_prp$ recipients_nns to_to know_vb that_in what_wp they_prp have_vbp is_vbz not_rb the_dt original,_nn so_rb
+that_in any_dt problems_nns introduced_vbn by_in others_nns will_md not_rb reflect_vb on_in the_dt original_jj
+authors'_nns reputations._vbg
+
+finally,_nnp any_dt free_jj program_nn is_vbz threatened_vbn constantly_rb by_in software_nn
+patents._nn we_prp wish_vbp to_to avoid_vb the_dt danger_nn that_in redistributors_nns of_in a_dt free_jj
+program_nn will_md individually_rb obtain_vb patent_nn licenses,_nn in_in effect_nn making_vbg the_dt
+program_nn proprietary._vbd to_to prevent_vb this,_nn we_prp have_vbp made_vbn it_prp clear_jj that_in any_dt
+patent_nn must_md be_vb licensed_vbn for_in everyone's_dt free_jj use_nn or_cc not_rb licensed_vbn at_in all._prp$
+
+the_dt precise_jj terms_nns and_cc conditions_nns for_in copying,_nn distribution_nn and_cc
+modification_nn follow._vbg
+
+gnu_nnp general_nnp public_nnp license_nnp
+terms_nnp and_cc conditions_nns for_in copying,_dt distribution_nn and_cc modification_nn
+
+0._cd this_dt license_nn applies_vbz to_to any_dt program_nn or_cc other_jj work_nn which_wdt contains_vbz
+a_dt notice_nn placed_vbn by_in the_dt copyright_nn holder_nn saying_vbg it_prp may_md be_vb distributed_vbn
+under_in the_dt terms_nns of_in this_dt general_nnp public_nnp license._nnp the_dt "program",_nn below,_in
+refers_vbz to_to any_dt such_jj program_nn or_cc work,_nn and_cc a_dt "work_nn based_vbn on_in the_dt program"_nn
+means_vbz either_cc the_dt program_nn or_cc any_dt derivative_jj work_nn under_in copyright_nn law:_nn
+that_dt is_vbz to_to say,_vb a_dt work_nn containing_vbg the_dt program_nn or_cc a_dt portion_nn of_in it,_prp$
+either_cc verbatim_jj or_cc with_in modifications_nns and/or_cc translated_vbn into_in another_dt
+language._nn (hereinafter,_nnp translation_nn is_vbz included_vbn without_in limitation_nn in_in
+the_dt term_nn "modification".)_in each_dt licensee_nn is_vbz addressed_vbn as_in "you"._.
+
+activities_nns other_jj than_in copying,_nn distribution_nn and_cc modification_nn are_vbp not_rb
+covered_vbn by_in this_dt license;_nn they_prp are_vbp outside_in its_prp$ scope._nn the_dt act_nn of_in
+running_vbg the_dt program_nn is_vbz not_rb restricted,_vbn and_cc the_dt output_nn from_in the_dt program_nn
+is_vbz covered_vbn only_rb if_in its_prp$ contents_nns constitute_vbp a_dt work_nn based_vbn on_in the_dt
+program_nn (independent_nn of_in having_vbg been_vbn made_vbn by_in running_vbg the_dt program)._nnp
+whether_in that_dt is_vbz true_jj depends_vbz on_in what_wp the_dt program_nn does._.
+
+1._. you_prp may_md copy_vb and_cc distribute_vb verbatim_jj copies_nns of_in the_dt program's_nnp
+source_nn code_nn as_in you_prp receive_vbp it,_vbn in_in any_dt medium,_nns provided_vbn that_in you_prp
+conspicuously_rb and_cc appropriately_rb publish_vb on_in each_dt copy_nn an_dt appropriate_jj
+copyright_nn notice_nn and_cc disclaimer_nn of_in warranty;_nns keep_vbp intact_jj all_pdt the_dt
+notices_nns that_wdt refer_vbp to_to this_dt license_nn and_cc to_to the_dt absence_nn of_in any_dt warranty;_nn
+and_cc give_vb any_dt other_jj recipients_nns of_in the_dt program_nn a_dt copy_nn of_in this_dt license_nn
+along_in with_in the_dt program._nnp
+
+you_prp may_md charge_vb a_dt fee_nn for_in the_dt physical_jj act_nn of_in transferring_vbg a_dt copy,_nn and_cc
+you_prp may_md at_in your_prp$ option_nn offer_nn warranty_nn protection_nn in_in exchange_nn for_in a_dt fee._nn
+
+2._. you_prp may_md modify_vb your_prp$ copy_nn or_cc copies_nns of_in the_dt program_nn or_cc any_dt portion_nn
+of_in it,_prp thus_rb forming_vbg a_dt work_nn based_vbn on_in the_dt program,_nnp and_cc copy_nn and_cc
+distribute_vb such_jj modifications_nns or_cc work_nn under_in the_dt terms_nns of_in section_nn 1_cd
+above,_rb provided_vbd that_in you_prp also_rb meet_vbp all_dt of_in these_dt conditions:_nns
+
+a)_nn you_prp must_md cause_vb the_dt modified_vbn files_nns to_to carry_vb prominent_jj notices_nns
+stating_vbg that_in you_prp changed_vbd the_dt files_nns and_cc the_dt date_nn of_in any_dt change._nn
+
+b)_nn you_prp must_md cause_vb any_dt work_nn that_in you_prp distribute_vbp or_cc publish,_jj that_in in_in
+whole_jj or_cc in_in part_nn contains_vbz or_cc is_vbz derived_vbn from_in the_dt program_nn or_cc any_dt
+part_nn thereof,_, to_to be_vb licensed_vbn as_in a_dt whole_nn at_in no_dt charge_nn to_to all_dt third_jj
+parties_nns under_in the_dt terms_nns of_in this_dt license._.
+
+c)_nn if_in the_dt modified_vbn program_nn normally_rb reads_vbz commands_nns interactively_rb
+when_wrb run,_vbp you_prp must_md cause_vb it,_vbn when_wrb started_vbn running_vbg for_in such_jj
+interactive_jj use_nn in_in the_dt most_rbs ordinary_jj way,_nn to_to print_nn or_cc display_vb an_dt
+announcement_nn including_vbg an_dt appropriate_jj copyright_nn notice_nn and_cc a_dt
+notice_nn that_in there_ex is_vbz no_dt warranty_nn (or_in else,_nn saying_vbg that_in you_prp provide_vbp
+a_dt warranty)_nn and_cc that_in users_nns may_md redistribute_vb the_dt program_nn under_in
+these_dt conditions,_nns and_cc telling_vbg the_dt user_nn how_wrb to_to view_vb a_dt copy_nn of_in this_dt
+license._nnp (exception:_nnp if_in the_dt program_nn itself_prp is_vbz interactive_jj but_cc
+does_vbz not_rb normally_rb print_nn such_jj an_dt announcement,_nn your_prp$ work_nn based_vbn on_in
+the_dt program_nn is_vbz not_rb required_vbn to_to print_nn an_dt announcement.)_nn
+
+these_dt requirements_nns apply_vbp to_to the_dt modified_vbn work_nn as_in a_dt whole._nn if_in
+identifiable_jj sections_nns of_in that_dt work_nn are_vbp not_rb derived_vbn from_in the_dt program,_nn
+and_cc can_md be_vb reasonably_rb considered_vbn independent_jj and_cc separate_jj works_nns in_in
+themselves,_, then_rb this_dt license,_nn and_cc its_prp$ terms,_nns do_vbp not_rb apply_vb to_to those_dt
+sections_nns when_wrb you_prp distribute_vbp them_prp as_in separate_jj works._. but_cc when_wrb you_prp
+distribute_vb the_dt same_jj sections_nns as_in part_nn of_in a_dt whole_nn which_wdt is_vbz a_dt work_nn based_vbn
+on_in the_dt program,_nn the_dt distribution_nn of_in the_dt whole_nn must_md be_vb on_in the_dt terms_nns of_in
+this_dt license,_nn whose_wp$ permissions_nns for_in other_jj licensees_nns extend_vbp to_to the_dt
+entire_jj whole,_jj and_cc thus_rb to_to each_dt and_cc every_dt part_nn regardless_rb of_in who_wp wrote_vbd it._prp$
+
+thus,_rb it_prp is_vbz not_rb the_dt intent_nn of_in this_dt section_nn to_to claim_vb rights_nns or_cc contest_nn
+your_prp$ rights_nns to_to work_vb written_vbn entirely_rb by_in you;_nnp rather,_, the_dt intent_nn is_vbz to_to
+exercise_nn the_dt right_nn to_to control_vb the_dt distribution_nn of_in derivative_jj or_cc
+collective_jj works_nns based_vbn on_in the_dt program._nn
+
+in_in addition,_jj mere_jj aggregation_nn of_in another_dt work_nn not_rb based_vbn on_in the_dt program_nn
+with_in the_dt program_nn (or_nn with_in a_dt work_nn based_vbn on_in the_dt program)_nnp on_in a_dt volume_nn of_in
+a_dt storage_nn or_cc distribution_nn medium_nn does_vbz not_rb bring_vb the_dt other_jj work_nn under_in
+the_dt scope_nn of_in this_dt license._.
+
+3._. you_prp may_md copy_vb and_cc distribute_vb the_dt program_nn (or_in a_dt work_nn based_vbn on_in it,_prp$
+under_in section_nn 2)_cd in_in object_nn code_nn or_cc executable_jj form_nn under_in the_dt terms_nns of_in
+sections_nns 1_cd and_cc 2_cd above_in provided_vbn that_in you_prp also_rb do_vbp one_cd of_in the_dt following:_nn
+
+a)_nn accompany_nnp it_prp with_in the_dt complete_jj corresponding_jj machine-readable_jj
+source_nn code,_nn which_wdt must_md be_vb distributed_vbn under_in the_dt terms_nns of_in sections_nns
+1_cd and_cc 2_cd above_in on_in a_dt medium_nn customarily_rb used_vbn for_in software_nn interchange;_nn or,_nns
+
+b)_nn accompany_nnp it_prp with_in a_dt written_vbn offer,_nn valid_jj for_in at_in least_jjs three_cd
+years,_nn to_to give_vb any_dt third_jj party,_nn for_in a_dt charge_nn no_rb more_rbr than_in your_prp$
+cost_nn of_in physically_rb performing_vbg source_nn distribution,_nn a_dt complete_jj
+machine-readable_jj copy_nn of_in the_dt corresponding_jj source_nn code,_nn to_to be_vb
+distributed_vbn under_in the_dt terms_nns of_in sections_nnp 1_cd and_cc 2_cd above_in on_in a_dt medium_nn
+customarily_rb used_vbn for_in software_nn interchange;_nn or,_nns
+
+c)_nn accompany_nnp it_prp with_in the_dt information_nn you_prp received_vbd as_in to_to the_dt offer_nn
+to_to distribute_vb corresponding_jj source_nn code._nn (this_dt alternative_nn is_vbz
+allowed_vbn only_rb for_in noncommercial_jj distribution_nn and_cc only_rb if_in you_prp
+received_vbd the_dt program_nn in_in object_nn code_nn or_cc executable_jj form_nn with_in such_jj
+an_dt offer,_nn in_in accord_nn with_in subsection_nnp b_nn above.)_in
+
+the_dt source_nn code_nn for_in a_dt work_nn means_vbz the_dt preferred_vbn form_nn of_in the_dt work_nn for_in
+making_vbg modifications_nns to_to it._md for_in an_dt executable_jj work,_nn complete_jj source_nn
+code_nn means_vbz all_pdt the_dt source_nn code_nn for_in all_dt modules_nns it_prp contains,_vbz plus_in any_dt
+associated_vbn interface_nn definition_nn files,_nn plus_cc the_dt scripts_nns used_vbn to_to
+control_nn compilation_nn and_cc installation_nn of_in the_dt executable._nn however,_rb as_in a_dt
+special_jj exception,_in the_dt source_nn code_nn distributed_vbn need_nn not_rb include_vb
+anything_nn that_wdt is_vbz normally_rb distributed_vbn (in_in either_dt source_nn or_cc binary_nn
+form)_nns with_in the_dt major_jj components_nns (compiler,_, kernel,_jj and_cc so_rb on)_in of_in the_dt
+operating_vbg system_nn on_in which_wdt the_dt executable_jj runs,_nn unless_in that_dt component_nn
+itself_prp accompanies_vbz the_dt executable._nn
+
+if_in distribution_nn of_in executable_nn or_cc object_nn code_nn is_vbz made_vbn by_in offering_vbg
+access_nn to_to copy_nn from_in a_dt designated_vbn place,_nn then_rb offering_vbg equivalent_nn
+access_nn to_to copy_vb the_dt source_nn code_nn from_in the_dt same_jj place_nn counts_nns as_in
+distribution_nn of_in the_dt source_nn code,_nn even_rb though_in third_jj parties_nns are_vbp not_rb
+compelled_vbn to_to copy_vb the_dt source_nn along_in with_in the_dt object_nn code._nn
+
+4._. you_prp may_md not_rb copy,_vb modify,_jj sublicense,_jj or_cc distribute_vb the_dt program_nn
+except_in as_in expressly_rb provided_vbn under_in this_dt license._nnp any_dt attempt_nn
+otherwise_rb to_to copy,_vb modify,_nn sublicense_nn or_cc distribute_vb the_dt program_nn is_vbz
+void,_nn and_cc will_md automatically_rb terminate_vb your_prp$ rights_nns under_in this_dt license._.
+however,_rb parties_nns who_wp have_vbp received_vbn copies,_nns or_cc rights,_rb from_in you_prp under_in
+this_dt license_nn will_md not_rb have_vb their_prp$ licenses_nns terminated_vbn so_rb long_jj as_in such_jj
+parties_nns remain_vbp in_in full_jj compliance._nn
+
+5._dt you_prp are_vbp not_rb required_vbn to_to accept_vb this_dt license,_nn since_in you_prp have_vbp not_rb
+signed_vbn it._prp however,_in nothing_nn else_rb grants_vbz you_prp permission_nn to_to modify_vb or_cc
+distribute_vb the_dt program_nn or_cc its_prp$ derivative_jj works._nn these_dt actions_nns are_vbp
+prohibited_vbn by_in law_nn if_in you_prp do_vbp not_rb accept_vb this_dt license._nnp therefore,_nnp by_in
+modifying_nn or_cc distributing_vbg the_dt program_nn (or_in any_dt work_nn based_vbn on_in the_dt
+program),_nn you_prp indicate_vbp your_prp$ acceptance_nn of_in this_dt license_nn to_to do_vb so,_nn and_cc
+all_dt its_prp$ terms_nns and_cc conditions_nns for_in copying,_nn distributing_nn or_cc modifying_vbg
+the_dt program_nn or_cc works_nns based_vbn on_in it._prp$
+
+6._dt each_dt time_nn you_prp redistribute_vb the_dt program_nn (or_in any_dt work_nn based_vbn on_in the_dt
+program),_nnp the_dt recipient_nn automatically_rb receives_vbz a_dt license_nn from_in the_dt
+original_jj licensor_nn to_to copy,_vb distribute_vb or_cc modify_vb the_dt program_nnp subject_nn to_to
+these_dt terms_nns and_cc conditions._nn you_prp may_md not_rb impose_vb any_dt further_rbr
+restrictions_nns on_in the_dt recipients'_jj exercise_nn of_in the_dt rights_nns granted_vbn herein._.
+you_prp are_vbp not_rb responsible_jj for_in enforcing_vbg compliance_nn by_in third_jj parties_nns to_to
+this_dt license._nnp
+
+7._. if,_prp as_in a_dt consequence_nn of_in a_dt court_nn judgment_nn or_cc allegation_nn of_in patent_nn
+infringement_nn or_cc for_in any_dt other_jj reason_nn (not_rb limited_vbn to_to patent_nn issues),_nns
+conditions_nns are_vbp imposed_vbn on_in you_prp (whether_. by_in court_nn order,_nns agreement_nn or_cc
+otherwise)_jj that_in contradict_vbp the_dt conditions_nns of_in this_dt license,_nn they_prp do_vbp not_rb
+excuse_nn you_prp from_in the_dt conditions_nns of_in this_dt license._nnp if_in you_prp cannot_md
+distribute_vb so_rb as_rb to_to satisfy_vb simultaneously_rb your_prp$ obligations_nns under_in this_dt
+license_nn and_cc any_dt other_jj pertinent_jj obligations,_nn then_rb as_in a_dt consequence_nn you_prp
+may_md not_rb distribute_vb the_dt program_nn at_in all._dt for_in example,_nn if_in a_dt patent_nn
+license_nn would_md not_rb permit_vb royalty-free_jj redistribution_nn of_in the_dt program_nn by_in
+all_pdt those_dt who_wp receive_vbp copies_nns directly_rb or_cc indirectly_rb through_in you,_prp then_rb
+the_dt only_jj way_nn you_prp could_md satisfy_vb both_dt it_prp and_cc this_dt license_nn would_md be_vb to_to
+refrain_vb entirely_rb from_in distribution_nn of_in the_dt program._nnp
+
+if_in any_dt portion_nn of_in this_dt section_nn is_vbz held_vbn invalid_jj or_cc unenforceable_jj under_in
+any_dt particular_jj circumstance,_nn the_dt balance_nn of_in the_dt section_nn is_vbz intended_vbn to_to
+apply_vb and_cc the_dt section_nn as_in a_dt whole_nn is_vbz intended_vbn to_to apply_vb in_in other_jj
+circumstances._vbg
+
+it_prp is_vbz not_rb the_dt purpose_nn of_in this_dt section_nn to_to induce_vb you_prp to_to infringe_vb any_dt
+patents_nns or_cc other_jj property_nn right_nn claims_nns or_cc to_to contest_vb validity_nn of_in any_dt
+such_jj claims;_nns this_dt section_nn has_vbz the_dt sole_jj purpose_nn of_in protecting_vbg the_dt
+integrity_nn of_in the_dt free_jj software_nn distribution_nn system,_nn which_wdt is_vbz
+implemented_vbn by_in public_jj license_nn practices._nn many_jj people_nns have_vbp made_vbn
+generous_jj contributions_nns to_to the_dt wide_jj range_nn of_in software_nn distributed_vbn
+through_in that_dt system_nn in_in reliance_nn on_in consistent_jj application_nn of_in that_wdt
+system;_nn it_prp is_vbz up_rb to_to the_dt author/donor_nn to_to decide_vb if_in he_prp or_cc she_prp is_vbz willing_jj
+to_to distribute_vb software_nn through_in any_dt other_jj system_nn and_cc a_dt licensee_nn cannot_.
+impose_vb that_dt choice._nn
+
+this_dt section_nn is_vbz intended_vbn to_to make_vb thoroughly_rb clear_jj what_wp is_vbz believed_vbn to_to
+be_vb a_dt consequence_nn of_in the_dt rest_nn of_in this_dt license._.
+
+8._cd if_in the_dt distribution_nn and/or_in use_nn of_in the_dt program_nn is_vbz restricted_vbn in_in
+certain_jj countries_nns either_cc by_in patents_nns or_cc by_in copyrighted_vbn interfaces,_nn the_dt
+original_jj copyright_nn holder_nn who_wp places_vbz the_dt program_nn under_in this_dt license_nn
+may_md add_vb an_dt explicit_jj geographical_jj distribution_nn limitation_nn excluding_vbg
+those_dt countries,_nns so_rb that_in distribution_nn is_vbz permitted_vbn only_rb in_in or_cc among_in
+countries_nns not_rb thus_rb excluded._vbn in_in such_jj case,_nn this_dt license_nn incorporates_vbz
+the_dt limitation_nn as_in if_in written_vbn in_in the_dt body_nn of_in this_dt license._.
+
+9._`` the_dt free_nnp software_nnp foundation_nnp may_md publish_vb revised_vbn and/or_cc new_jj versions_nns
+of_in the_dt general_nnp public_nnp license_nnp from_in time_nn to_to time._dt such_jj new_jj versions_nns will_md
+be_vb similar_jj in_in spirit_nn to_to the_dt present_jj version,_nn but_cc may_md differ_vb in_in detail_nn to_to
+address_nn new_jj problems_nns or_cc concerns._nn
+
+each_dt version_nn is_vbz given_vbn a_dt distinguishing_nn version_nn number._nn if_in the_dt program_nn
+specifies_vbz a_dt version_nn number_nn of_in this_dt license_nn which_wdt applies_vbz to_to it_prp and_cc "any_nn
+later_rb version",_rb you_prp have_vbp the_dt option_nn of_in following_vbg the_dt terms_nns and_cc conditions_nns
+either_dt of_in that_dt version_nn or_cc of_in any_dt later_jj version_nn published_vbn by_in the_dt free_nnp
+software_nnp foundation._nnp if_in the_dt program_nn does_vbz not_rb specify_vb a_dt version_nn number_nn of_in
+this_dt license,_nn you_prp may_md choose_vb any_dt version_nn ever_rb published_vbn by_in the_dt free_nnp software_nnp
+foundation._.
+
+10._`` if_in you_prp wish_vbp to_to incorporate_vb parts_nns of_in the_dt program_nn into_in other_jj free_jj
+programs_nns whose_wp$ distribution_nn conditions_nns are_vbp different,_jj write_vbp to_to the_dt author_nn
+to_to ask_vb for_in permission._nn for_in software_nn which_wdt is_vbz copyrighted_vbn by_in the_dt free_nnp
+software_nnp foundation,_nnp write_vbp to_to the_dt free_nnp software_nnp foundation;_nnp we_prp sometimes_rb
+make_vb exceptions_nns for_in this._dt our_prp$ decision_nn will_md be_vb guided_vbn by_in the_dt two_cd goals_nns
+of_in preserving_vbg the_dt free_jj status_nn of_in all_dt derivatives_nns of_in our_prp$ free_jj software_nn and_cc
+of_in promoting_vbg the_dt sharing_nn and_cc reuse_nn of_in software_nn generally._.
+
+no_dt warranty_nn
+
+11._. because_nnp the_dt program_nn is_vbz licensed_vbn free_nn of_in charge,_jj there_jj is_prp$ no_uh warranty_.
+for_in the_dt program,_nn to_to the_dt extent_nnp permitted_nnp by_nnp applicable_nnp law._nnp except_nnp when_wrb
+otherwise_nnp stated_vbd in_in writing_nnp the_nnp copyright_nnp holders_nnp and/or_nnp other_nnp parties_nns
+provide_nnp the_dt program_nnp "as_nnp is"_nnp without_nnp warranty_nnp of_in any_nnp kind,_nnp either_nnp expressed_nnps
+or_jj implied,_nnp including,_nnp but_nnp not_nnp limited_nnp to,_nnp the_dt implied_nnp warranties_nnps of_in
+merchantability_nn and_cc fitness_nnp for_in a_dt particular_nn purpose._nnp the_nnp entire_nnp risk_nnp as_in
+to_to the_dt quality_nn and_cc performance_nn of_in the_dt program_nn is_vbz with_in you._nnp should_nnp the_nnp
+program_nn prove_nn defective,_in you_prp assume_vbp the_dt cost_nn of_in all_nnp necessary_nnp servicing,_.
+repair_nn or_jj correction._.
+
+12._. in_in no_dt event_nnp unless_nnp required_nnp by_nnp applicable_nnp law_nnp or_jj agreed_nnp to_to in_in writing_vbg
+will_md any_dt copyright_nnp holder,_nnp or_nnp any_nnp other_nnp party_nnp who_wp may_nnp modify_nnp and/or_cc
+redistribute_nnp the_dt program_nn as_in permitted_nnp above,_nnp be_vb liable_nnp to_to you_prp for_in damages,_nns
+including_nn any_nnp general,_nnp special,_nnp incidental_nnp or_nnp consequential_nnp damages_nnp arising_nn
+out_nn of_in the_dt use_nn or_jj inability_nn to_to use_nnp the_dt program_nn (including_nn but_nnp not_nnp limited_nnp
+to_to loss_nnp of_in data_nnp or_jj data_nnp being_nnp rendered_nnp inaccurate_nnp or_nnp losses_nnp sustained_nnp by_.
+you_prp or_jj third_in parties_nns or_jj a_dt failure_nn of_in the_dt program_nn to_to operate_nnp with_in any_nnp other_nnp
+programs),_nn even_nns if_in such_nnp holder_nnp or_nnp other_nnp party_nnp has_vbz been_nns advised_vbd of_in the_dt
+possibility_nn of_in such_nnp damages._.
+
+end_nnp of_in terms_nnp and_cc conditions_nns
+
+how_wrb to_to apply_nnp these_dt terms_nns to_to your_prp$ new_nnp programs_nnp
+
+if_in you_prp develop_vbp a_dt new_jj program,_nn and_cc you_prp want_vbp it_prp to_to be_vb of_in the_dt greatest_jjs
+possible_jj use_nn to_to the_dt public,_nn the_dt best_jjs way_nn to_to achieve_vb this_dt is_vbz to_to make_vb it_prp
+free_jj software_nn which_wdt everyone_nn can_md redistribute_vb and_cc change_vb under_in these_dt terms._nn
+
+to_to do_vb so,_rb attach_vb the_dt following_vbg notices_nns to_to the_dt program._nn it_prp is_vbz safest_jjs
+to_to attach_vb them_prp to_to the_dt start_nn of_in each_dt source_nn file_vbp to_to most_rbs effectively_rb
+convey_vb the_dt exclusion_nn of_in warranty;_nns and_cc each_dt file_nn should_md have_vb at_in least_jjs
+the_dt "copyright"_jj line_nn and_cc a_dt pointer_nn to_to where_wrb the_dt full_jj notice_nn is_vbz found._vbn
+
+<one_nn line_nn to_to give_vb the_dt program's_nns name_nn and_cc a_dt brief_jj idea_nn of_in what_wp it_prp does.>_.
+copyright_nnp (c)_nnp 19yy_in <name_nn of_in author>_nn
+
+this_dt program_nn is_vbz free_jj software;_nn you_prp can_md redistribute_vb it_prp and/or_cc modify_vb
+it_prp under_in the_dt terms_nns of_in the_dt gnu_nnp general_nnp public_nnp license_nnp as_in published_vbn by_in
+the_dt free_nnp software_nnp foundation;_nnp either_cc version_nn 2_cd of_in the_dt license,_nnp or_cc
+(at_in your_prp$ option)_nn any_dt later_rb version._.
+
+this_dt program_nn is_vbz distributed_vbn in_in the_dt hope_nn that_in it_prp will_md be_vb useful,_vbn
+but_cc without_nnp any_nnp warranty;_nnp without_in even_rb the_dt implied_vbn warranty_nn of_in
+merchantability_nn or_cc fitness_nnp for_in a_dt particular_nn purpose._nnp see_vb the_dt
+gnu_nnp general_nnp public_nnp license_nnp for_in more_jjr details._nn
+
+you_prp should_md have_vb received_vbn a_dt copy_nn of_in the_dt gnu_nnp general_nnp public_nnp license_nnp
+along_in with_in this_dt program;_nn if_in not,_rb write_vb to_to the_dt free_nnp software_nnp
+foundation,_nnp inc.,_nnp 59_cd temple_nnp place,_nnp suite_nnp 330,_cd boston,_nnp ma_nnp 02111-1307_cd usa_nnp
+
+
+also_rb add_vb information_nn on_in how_wrb to_to contact_vb you_prp by_in electronic_jj and_cc paper_nn mail._nn
+
+if_in the_dt program_nn is_vbz interactive,_rb make_vb it_prp output_nn a_dt short_jj notice_nn like_in this_dt
+when_wrb it_prp starts_vbz in_in an_dt interactive_jj mode:_nn
+
+gnomovision_nnp version_nn 69,_in copyright_nnp (c)_nnp 19yy_pos name_nn of_in author_nn
+gnomovision_nn comes_vbz with_in absolutely_nnp no_dt warranty;_nnp for_in details_nns type_nn `show_nn w'._.
+this_dt is_vbz free_jj software,_nn and_cc you_prp are_vbp welcome_jj to_to redistribute_vb it_prp
+under_in certain_jj conditions;_nn type_nn `show_nn c'_nns for_in details._vbg
+
+the_dt hypothetical_jj commands_nns `show_vbp w'_jj and_cc `show_jj c'_nns should_md show_vb the_dt appropriate_jj
+parts_nns of_in the_dt general_nnp public_nnp license._nnp of_in course,_nn the_dt commands_nns you_prp use_vbp may_md
+be_vb called_vbn something_nn other_jj than_in `show_nn w'_nns and_cc `show_nn c';_in they_prp could_md even_rb be_vb
+mouse-clicks_nns or_cc menu_nn items--whatever_nn suits_nns your_vbp program._nn
+
+you_prp should_md also_rb get_vb your_prp$ employer_nn (if_in you_prp work_vbp as_in a_dt programmer)_nn or_cc your_prp$
+school,_nn if_in any,_nns to_to sign_vb a_dt "copyright_nn disclaimer"_nn for_in the_dt program,_nn if_in
+necessary._, here_rb is_vbz a_dt sample;_nn alter_vbp the_dt names:_nn
+
+yoyodyne,_nnp inc.,_nnp hereby_rb disclaims_vbz all_dt copyright_nn interest_nn in_in the_dt program_nn
+`gnomovision'_nn (which_wdt makes_vbz passes_nns at_in compilers)_nn written_vbn by_in james_nnp hacker._nnp
+
+<signature_nn of_in ty_nnp coon>,_nnp 1_cd april_nnp 1989_cd
+ty_nnp coon,_nnp president_nnp of_in vice_nnp
+
+this_dt general_nnp public_nnp license_nnp does_vbz not_rb permit_vb incorporating_vbg your_prp$ program_nn into_in
+proprietary_jj programs._nn if_in your_prp$ program_nn is_vbz a_dt subroutine_jj library,_nn you_prp may_md
+consider_vb it_prp more_rbr useful_jj to_to permit_vb linking_vbg proprietary_jj applications_nns with_in the_dt
+library._nn if_in this_dt is_vbz what_wp you_prp want_vbp to_to do,_vb use_vb the_dt gnu_nnp library_nnp general_nnp
+public_nnp license_nnp instead_rb of_in this_dt license._.
+
+-------------------------------------------------------------------------------------------------------_:
+
+7-zip_.
+~~~~~_nn
+license_nn for_in use_nn and_cc distribution_nn
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~_nn
+
+7-zip_jj copyright_nnp (c)_nnp 1999-2010_cd igor_nnp pavlov._nnp
+
+licenses_nns for_in files_nns are:_cc
+
+1)_jj 7z.dll:_jj gnu_nnp lgpl_nnp +_nnp unrar_nn restriction_nn
+2)_jj all_dt other_jj files:_nn gnu_nnp lgpl_.
+
+the_dt gnu_nnp lgpl_nnp +_nnp unrar_nn restriction_nn means_vbz that_in you_prp must_md follow_vb both_cc
+gnu_nnp lgpl_nnp rules_nns and_cc unrar_nn restriction_nn rules._.
+
+
+note:_nn
+you_prp can_md use_vb 7-zip_jj on_in any_dt computer,_nn including_vbg a_dt computer_nn in_in a_dt commercial_jj
+organization._nn you_prp don't_rb need_vbp to_to register_vb or_cc pay_vb for_in 7-zip._.
+
+
+gnu_nnp lgpl_nnp information_nn
+--------------------_:
+
+this_dt library_nn is_vbz free_jj software;_nn you_prp can_md redistribute_vb it_prp and/or_cc
+modify_vb it_prp under_in the_dt terms_nns of_in the_dt gnu_nnp lesser_nnp general_nnp public_nnp
+license_nn as_in published_vbn by_in the_dt free_nnp software_nnp foundation;_nnp either_cc
+version_nn 2.1_cd of_in the_dt license,_nnp or_cc (at_in your_prp$ option)_nn any_dt later_rb version._.
+
+this_dt library_nn is_vbz distributed_vbn in_in the_dt hope_nn that_in it_prp will_md be_vb useful,_vbn
+but_cc without_nnp any_nnp warranty;_nnp without_in even_rb the_dt implied_vbn warranty_nn of_in
+merchantability_nn or_cc fitness_nnp for_in a_dt particular_nn purpose._nnp see_vb the_dt gnu_nn
+lesser_nnp general_nnp public_nnp license_nnp for_in more_jjr details._nn
+
+you_prp can_md receive_vb a_dt copy_nn of_in the_dt gnu_nnp lesser_nnp general_nnp public_nnp license_nnp from_in
+http://www.gnu.org/_nn
+
+
+unrar_nn restriction_nn
+-----------------_:
+
+the_dt decompression_nn engine_nn for_in rar_nn archives_nns was_vbd developed_vbn using_vbg source_nn
+code_nn of_in unrar_nn program._nn
+all_dt copyrights_nns to_to original_jj unrar_nn code_nn are_vbp owned_vbn by_in alexander_nnp roshal._nnp
+
+the_dt license_nn for_in original_jj unrar_nn code_nn has_vbz the_dt following_vbg restriction:_nn
+
+the_dt unrar_nn sources_nns cannot_md be_vb used_vbn to_to re-create_vb the_dt rar_nn compression_nn algorithm,_.
+which_wdt is_vbz proprietary._dt distribution_nn of_in modified_vbn unrar_nn sources_nns in_in separate_jj form_nn
+or_cc as_in a_dt part_nn of_in other_jj software_nn is_vbz permitted,_rb provided_vbn that_in it_prp is_vbz clearly_rb
+stated_vbn in_in the_dt documentation_nn and_cc source_nn comments_nns that_in the_dt code_nn may_md
+not_rb be_vb used_vbn to_to develop_vb a_dt rar_nn (winrar)_nnp compatible_jj archiver._nn
+
+
+--_:
+igor_nnp pavlov_nnp
+
+-------------------------------------------------------------------------------------------------------_:
+
+gnu_nnp lesser_nnp general_nnp public_nnp license_nnp
+version_nnp 2.1,_cd february_nnp 1999_cd
+
+copyright_nnp (c)_nnp 1991,_cd 1999_cd free_nnp software_nnp foundation,_nnp inc._nnp
+59_cd temple_nnp place,_nnp suite_nnp 330,_cd boston,_nnp ma_nnp 02111-1307_cd usa_nnp
+everyone_nn is_vbz permitted_vbn to_to copy_vb and_cc distribute_vb verbatim_jj copies_nns
+of_in this_dt license_nn document,_nn but_cc changing_vbg it_prp is_vbz not_rb allowed._vbn
+
+[this_dt is_vbz the_dt first_rb released_vbn version_nn of_in the_dt lesser_nnp gpl._nnp it_prp also_rb counts_vbz
+as_in the_dt successor_nn of_in the_dt gnu_nnp library_nnp public_nnp license,_nnp version_nn 2,_cd hence_rb
+the_dt version_nn number_nn 2.1.]_cd
+
+preamble_nn
+
+the_dt licenses_nns for_in most_jjs software_nn are_vbp designed_vbn to_to take_vb away_rb your_prp$
+freedom_nn to_to share_nn and_cc change_nn it._. by_in contrast,_vbg the_dt gnu_nnp general_nnp public_nnp
+licenses_nns are_vbp intended_vbn to_to guarantee_vb your_prp$ freedom_nn to_to share_nn and_cc change_nn
+free_jj software--to_nn make_vb sure_jj the_dt software_nn is_vbz free_jj for_in all_dt its_prp$ users._nn
+
+this_dt license,_nn the_dt lesser_nnp general_nnp public_nnp license,_nnp applies_vbz to_to some_dt
+specially_rb designated_vbn software_nn packages--typically_rb libraries--of_vbd the_dt
+free_nnp software_nnp foundation_nnp and_cc other_jj authors_nns who_wp decide_vbp to_to use_vb it._. you_prp
+can_md use_vb it_prp too,_rb but_cc we_prp suggest_vbp you_prp first_rb think_vb carefully_rb about_in whether_in
+this_dt license_nn or_cc the_dt ordinary_jj general_nnp public_nnp license_nnp is_vbz the_dt better_rbr
+strategy_nn to_to use_vb in_in any_dt particular_jj case,_nn based_vbn on_in the_dt explanations_nns below._.
+
+when_wrb we_prp speak_vbp of_in free_jj software,_nn we_prp are_vbp referring_vbg to_to freedom_nn of_in use,_nn
+not_rb price._nn our_prp$ general_nnp public_nnp licenses_nnp are_vbp designed_vbn to_to make_vb sure_jj that_in
+you_prp have_vbp the_dt freedom_nn to_to distribute_vb copies_nns of_in free_jj software_nn (and_. charge_nn
+for_in this_dt service_nn if_in you_prp wish);_vbp that_in you_prp receive_vbp source_nn code_nn or_cc can_md get_vb
+it_prp if_in you_prp want_vbp it;_prp that_in you_prp can_md change_vb the_dt software_nn and_cc use_vb pieces_nns of_in
+it_prp in_in new_jj free_jj programs;_nn and_cc that_in you_prp are_vbp informed_vbn that_in you_prp can_md do_vb
+these_dt things._md
+
+to_to protect_vb your_prp$ rights,_nn we_prp need_vbp to_to make_vb restrictions_nns that_in forbid_nn
+distributors_nns to_to deny_vb you_prp these_dt rights_nns or_cc to_to ask_vb you_prp to_to surrender_vb these_dt
+rights._vbg these_dt restrictions_nns translate_vb to_to certain_jj responsibilities_nns for_in
+you_prp if_in you_prp distribute_vbp copies_nns of_in the_dt library_nn or_cc if_in you_prp modify_vb it._.
+
+for_in example,_nn if_in you_prp distribute_vbp copies_nns of_in the_dt library,_nn whether_in gratis_nn
+or_cc for_in a_dt fee,_nn you_prp must_md give_vb the_dt recipients_nns all_dt the_dt rights_nns that_in we_prp gave_vbd
+you._prp you_prp must_md make_vb sure_jj that_in they,_dt too,_nns receive_vbp or_cc can_md get_vb the_dt source_nn
+code._nn if_in you_prp link_vbp other_jj code_nn with_in the_dt library,_nn you_prp must_md provide_vb
+complete_jj object_nn files_nns to_to the_dt recipients,_nn so_rb that_in they_prp can_md relink_vb them_prp
+with_in the_dt library_nn after_in making_vbg changes_nns to_to the_dt library_nn and_cc recompiling_vbg
+it._prp and_cc you_prp must_md show_vb them_prp these_dt terms_nns so_rb they_prp know_vbp their_prp$ rights._nn
+
+we_prp protect_vbp your_prp$ rights_nns with_in a_dt two-step_jj method:_nn (1)_in we_prp copyright_nn the_dt
+library,_nn and_cc (2)_in we_prp offer_vbp you_prp this_dt license,_nn which_wdt gives_vbz you_prp legal_jj
+permission_nn to_to copy,_vb distribute_vb and/or_cc modify_vb the_dt library._nn
+
+to_to protect_vb each_dt distributor,_nn we_prp want_vbp to_to make_vb it_prp very_rb clear_jj that_in
+there_ex is_vbz no_dt warranty_nn for_in the_dt free_jj library._nn also,_rb if_in the_dt library_nn is_vbz
+modified_vbn by_in someone_nn else_rb and_cc passed_vbd on,_in the_dt recipients_nns should_md know_vb
+that_in what_wp they_prp have_vbp is_vbz not_rb the_dt original_jj version,_nn so_in that_in the_dt original_jj
+author's_jj reputation_nn will_md not_rb be_vb affected_vbn by_in problems_nns that_wdt might_md be_vb
+introduced_vbn by_in others._vbg
+
+finally,_nnp software_nn patents_nns pose_vbp a_dt constant_jj threat_nn to_to the_dt existence_nn of_in
+any_dt free_jj program._nn we_prp wish_vbp to_to make_vb sure_jj that_in a_dt company_nn cannot_.
+effectively_rb restrict_vb the_dt users_nns of_in a_dt free_jj program_nn by_in obtaining_vbg a_dt
+restrictive_jj license_nn from_in a_dt patent_nn holder._nn therefore,_. we_prp insist_vbp that_in
+any_dt patent_nn license_nn obtained_vbn for_in a_dt version_nn of_in the_dt library_nn must_md be_vb
+consistent_jj with_in the_dt full_jj freedom_nn of_in use_nn specified_vbn in_in this_dt license._nn
+
+most_jjs gnu_nnp software,_nn including_vbg some_dt libraries,_nn is_vbz covered_vbn by_in the_dt
+ordinary_jj gnu_nnp general_nnp public_nnp license._nnp this_dt license,_nn the_dt gnu_nnp lesser_nnp
+general_nnp public_nnp license,_nnp applies_vbz to_to certain_jj designated_vbn libraries,_nn and_cc
+is_vbz quite_rb different_jj from_in the_dt ordinary_jj general_nnp public_nnp license._nnp we_prp use_vbp
+this_dt license_nn for_in certain_jj libraries_nns in_in order_nn to_to permit_vb linking_vbg those_dt
+libraries_nns into_in non-free_jj programs._nn
+
+when_wrb a_dt program_nn is_vbz linked_vbn with_in a_dt library,_nn whether_in statically_nn or_cc using_vbg
+a_dt shared_vbn library,_nn the_dt combination_nn of_in the_dt two_cd is_vbz legally_rb speaking_vbg a_dt
+combined_vbn work,_nns a_dt derivative_nn of_in the_dt original_jj library._nn the_dt ordinary_jj
+general_nnp public_nnp license_nnp therefore_rb permits_vbz such_jj linking_vbg only_rb if_in the_dt
+entire_jj combination_nn fits_vbz its_prp$ criteria_nns of_in freedom._dt the_dt lesser_nnp general_nnp
+public_nnp license_nnp permits_vbz more_rbr lax_jj criteria_nns for_in linking_vbg other_jj code_nn with_in
+the_dt library._nn
+
+we_prp call_vbp this_dt license_nn the_dt "lesser"_nnp general_nnp public_nnp license_nnp because_in it_prp
+does_vbz less_jjr to_to protect_vb the_dt user's_nn freedom_nn than_in the_dt ordinary_jj general_nnp
+public_nnp license._nnp it_prp also_rb provides_vbz other_jj free_jj software_nn developers_nns less_rbr
+of_in an_dt advantage_nn over_in competing_vbg non-free_jj programs._nn these_dt disadvantages_nns
+are_vbp the_dt reason_nn we_prp use_vbp the_dt ordinary_jj general_nnp public_nnp license_nnp for_in many_jj
+libraries._nn however,_rb the_dt lesser_nnp license_nn provides_vbz advantages_nns in_in certain_jj
+special_jj circumstances._nn
+
+for_in example,_nn on_in rare_jj occasions,_nn there_ex may_md be_vb a_dt special_jj need_nn to_to
+encourage_vb the_dt widest_jjs possible_jj use_nn of_in a_dt certain_jj library,_nn so_in that_in it_prp becomes_vbz
+a_dt de-facto_jj standard._nn to_to achieve_vb this,_dt non-free_jj programs_nns must_md be_vb
+allowed_vbn to_to use_vb the_dt library._nn a_dt more_rbr frequent_jj case_nn is_vbz that_in a_dt free_jj
+library_nn does_vbz the_dt same_jj job_nn as_in widely_rb used_vbn non-free_jj libraries._nn in_in this_dt
+case,_nn there_ex is_vbz little_jj to_to gain_vb by_in limiting_vbg the_dt free_jj library_nn to_to free_vb
+software_nn only,_rb so_rb we_prp use_vbp the_dt lesser_nnp general_nnp public_nnp license._nnp
+
+in_in other_jj cases,_nn permission_nn to_to use_vb a_dt particular_jj library_nn in_in non-free_jj
+programs_nns enables_vbz a_dt greater_jjr number_nn of_in people_nns to_to use_vb a_dt large_jj body_nn of_in
+free_jj software._nn for_in example,_nn permission_nn to_to use_vb the_dt gnu_nnp c_nnp library_nnp in_in
+non-free_jj programs_nns enables_vbz many_jj more_jjr people_nns to_to use_vb the_dt whole_jj gnu_nn
+operating_vbg system,_nn as_rb well_rb as_in its_prp$ variant,_vbp the_dt gnu/linux_nnp operating_nn
+system._nn
+
+although_in the_dt lesser_nnp general_nnp public_nnp license_nnp is_vbz less_jjr protective_nn of_in the_dt
+users'_nns freedom,_in it_prp does_vbz ensure_vb that_in the_dt user_nn of_in a_dt program_nn that_wdt is_vbz
+linked_vbn with_in the_dt library_nnp has_vbz the_dt freedom_nn and_cc the_dt wherewithal_jj to_to run_vb
+that_in program_nn using_vbg a_dt modified_vbn version_nn of_in the_dt library._nnp
+
+the_dt precise_jj terms_nns and_cc conditions_nns for_in copying,_nn distribution_nn and_cc
+modification_nn follow._vbd pay_nn close_jj attention_nn to_to the_dt difference_nn between_in a_dt
+"work_nn based_vbn on_in the_dt library"_nn and_cc a_dt "work_nn that_wdt uses_vbz the_dt library"._nn the_dt
+former_jj contains_vbz code_nn derived_vbn from_in the_dt library,_nn whereas_in the_dt latter_nn must_md
+be_vb combined_vbn with_in the_dt library_nn in_in order_nn to_to run._vb
+
+gnu_nnp lesser_nnp general_nnp public_nnp license_nnp
+terms_nnp and_cc conditions_nns for_in copying,_dt distribution_nn and_cc modification_nn
+
+0._cd this_dt license_nn agreement_nnp applies_vbz to_to any_dt software_nn library_nn or_cc other_jj
+program_nn which_wdt contains_vbz a_dt notice_nn placed_vbn by_in the_dt copyright_nn holder_nn or_cc
+other_jj authorized_jj party_nn saying_vbg it_prp may_md be_vb distributed_vbn under_in the_dt terms_nns of_in
+this_dt lesser_nnp general_nnp public_nnp license_nnp (also_rb called_vbd "this_dt license")._nnp
+each_dt licensee_nn is_vbz addressed_vbn as_in "you"._.
+
+a_dt "library"_nn means_vbz a_dt collection_nn of_in software_nn functions_nns and/or_. data_nn
+prepared_vbn so_rb as_in to_to be_vb conveniently_rb linked_vbn with_in application_nn programs_nns
+(which_wdt use_vbp some_dt of_in those_dt functions_nns and_cc data)_nn to_to form_vb executables._.
+
+the_dt "library",_nnp below,_in refers_vbz to_to any_dt such_jj software_nn library_nn or_cc work_nn
+which_wdt has_vbz been_vbn distributed_vbn under_in these_dt terms._nn a_dt "work_nn based_vbn on_in the_dt
+library"_nnp means_vbz either_cc the_dt library_jj or_cc any_dt derivative_jj work_nn under_in
+copyright_nn law:_nn that_wdt is_vbz to_to say,_vb a_dt work_nn containing_vbg the_dt library_nnp or_cc a_dt
+portion_nn of_in it,_dt either_dt verbatim_jj or_cc with_in modifications_nns and/or_rb translated_vbn
+straightforwardly_rb into_in another_dt language._nn (hereinafter,_nnp translation_nn is_vbz
+included_vbn without_in limitation_nn in_in the_dt term_nn "modification".)_.
+
+"source_nn code"_nn for_in a_dt work_nn means_vbz the_dt preferred_vbn form_nn of_in the_dt work_nn for_in
+making_vbg modifications_nns to_to it._md for_in a_dt library,_nn complete_jj source_nn code_nn means_nns
+all_pdt the_dt source_nn code_nn for_in all_dt modules_nns it_prp contains,_vbd plus_cc any_dt associated_vbn
+interface_nn definition_nn files,_nn plus_cc the_dt scripts_nns used_vbd to_to control_vb compilation_nn
+and_cc installation_nn of_in the_dt library._nn
+
+activities_nns other_jj than_in copying,_nn distribution_nn and_cc modification_nn are_vbp not_rb
+covered_vbn by_in this_dt license;_nn they_prp are_vbp outside_in its_prp$ scope._nn the_dt act_nn of_in
+running_vbg a_dt program_nn using_vbg the_dt library_nnp is_vbz not_rb restricted,_jj and_cc output_nn from_in
+such_jj a_dt program_nn is_vbz covered_vbn only_rb if_in its_prp$ contents_nns constitute_vbp a_dt work_nn based_vbn
+on_in the_dt library_jj (independent_nn of_in the_dt use_nn of_in the_dt library_nnp in_in a_dt tool_nn for_in
+writing_vbg it)._prp whether_in that_dt is_vbz true_jj depends_vbz on_in what_wp the_dt library_nnp does_vbz
+and_cc what_wp the_dt program_nn that_wdt uses_vbz the_dt library_nnp does._.
+
+1._. you_prp may_md copy_vb and_cc distribute_vb verbatim_jj copies_nns of_in the_dt library's_nnp
+complete_jj source_nn code_nn as_in you_prp receive_vbp it,_vbn in_in any_dt medium,_nns provided_vbn that_in
+you_prp conspicuously_rb and_cc appropriately_rb publish_vb on_in each_dt copy_nn an_cc
+appropriate_jj copyright_nn notice_nn and_cc disclaimer_nn of_in warranty;_nns keep_vbp intact_jj
+all_pdt the_dt notices_nns that_wdt refer_vbp to_to this_dt license_nn and_cc to_to the_dt absence_nn of_in any_dt
+warranty;_vbp and_cc distribute_vbp a_dt copy_nn of_in this_dt license_nn along_in with_in the_dt
+library._.
+
+you_prp may_md charge_vb a_dt fee_nn for_in the_dt physical_jj act_nn of_in transferring_vbg a_dt copy,_nn
+and_cc you_prp may_md at_in your_prp$ option_nn offer_nn warranty_nn protection_nn in_in exchange_nn for_in a_dt
+fee._.
+
+2._. you_prp may_md modify_vb your_prp$ copy_nn or_cc copies_nns of_in the_dt library_jj or_cc any_dt portion_nn
+of_in it,_prp thus_rb forming_vbg a_dt work_nn based_vbn on_in the_dt library,_nnp and_cc copy_nn and_cc
+distribute_vb such_jj modifications_nns or_cc work_nn under_in the_dt terms_nns of_in section_nn 1_cd
+above,_rb provided_vbd that_in you_prp also_rb meet_vbp all_dt of_in these_dt conditions:_nns
+
+a)_rb the_dt modified_jj work_nn must_md itself_prp be_vb a_dt software_nn library._nn
+
+b)_nn you_prp must_md cause_vb the_dt files_nns modified_vbn to_to carry_vb prominent_jj notices_nns
+stating_vbg that_in you_prp changed_vbd the_dt files_nns and_cc the_dt date_nn of_in any_dt change._nn
+
+c)_nn you_prp must_md cause_vb the_dt whole_nn of_in the_dt work_nn to_to be_vb licensed_vbn at_in no_nn
+charge_nn to_to all_dt third_jj parties_nns under_in the_dt terms_nns of_in this_dt license._.
+
+d)_nn if_in a_dt facility_nn in_in the_dt modified_vbn library_nnp refers_vbz to_to a_dt function_nn or_cc a_dt
+table_nn of_in data_nns to_to be_vb supplied_vbn by_in an_dt application_nn program_nn that_in uses_nns
+the_dt facility,_nns other_jj than_in as_in an_dt argument_nn passed_vbn when_wrb the_dt facility_nn
+is_vbz invoked,_in then_rb you_prp must_md make_vb a_dt good_jj faith_nn effort_nn to_to ensure_vb that,_in
+in_in the_dt event_nn an_dt application_nn does_vbz not_rb supply_vb such_jj function_nn or_cc
+table,_nn the_dt facility_nn still_rb operates,_rb and_cc performs_vbz whatever_wdt part_nn of_in
+its_prp$ purpose_nn remains_vbz meaningful._vbg
+
+(for_nn example,_vbd a_dt function_nn in_in a_dt library_nn to_to compute_vb square_jj roots_nns has_vbz
+a_dt purpose_nn that_wdt is_vbz entirely_rb well-defined_jj independent_jj of_in the_dt
+application._nn therefore,_dt subsection_nnp 2d_cc requires_vbz that_in any_dt
+application-supplied_jj function_nn or_cc table_nn used_vbn by_in this_dt function_nn must_md
+be_vb optional:_jj if_in the_dt application_nn does_vbz not_rb supply_vb it,_in the_dt square_nn
+root_nn function_nn must_md still_rb compute_vb square_jj roots.)_nn
+
+these_dt requirements_nns apply_vbp to_to the_dt modified_vbn work_nn as_in a_dt whole._nn if_in
+identifiable_jj sections_nns of_in that_dt work_nn are_vbp not_rb derived_vbn from_in the_dt library,_nn
+and_cc can_md be_vb reasonably_rb considered_vbn independent_jj and_cc separate_jj works_nns in_in
+themselves,_, then_rb this_dt license,_nn and_cc its_prp$ terms,_nns do_vbp not_rb apply_vb to_to those_dt
+sections_nns when_wrb you_prp distribute_vbp them_prp as_in separate_jj works._. but_cc when_wrb you_prp
+distribute_vb the_dt same_jj sections_nns as_in part_nn of_in a_dt whole_nn which_wdt is_vbz a_dt work_nn based_vbn
+on_in the_dt library,_nnp the_dt distribution_nn of_in the_dt whole_nn must_md be_vb on_in the_dt terms_nns of_in
+this_dt license,_nn whose_wp$ permissions_nns for_in other_jj licensees_nns extend_vbp to_to the_dt
+entire_jj whole,_jj and_cc thus_rb to_to each_dt and_cc every_dt part_nn regardless_rb of_in who_wp wrote_vbd
+it._.
+
+thus,_rb it_prp is_vbz not_rb the_dt intent_nn of_in this_dt section_nn to_to claim_vb rights_nns or_cc contest_nn
+your_prp$ rights_nns to_to work_vb written_vbn entirely_rb by_in you;_nnp rather,_, the_dt intent_nn is_vbz to_to
+exercise_nn the_dt right_nn to_to control_vb the_dt distribution_nn of_in derivative_jj or_cc
+collective_jj works_nns based_vbn on_in the_dt library._nnp
+
+in_in addition,_jj mere_jj aggregation_nn of_in another_dt work_nn not_rb based_vbn on_in the_dt library_jj
+with_in the_dt library_jj (or_nn with_in a_dt work_nn based_vbn on_in the_dt library)_nnp on_in a_dt volume_nn of_in
+a_dt storage_nn or_cc distribution_nn medium_nn does_vbz not_rb bring_vb the_dt other_jj work_nn under_in
+the_dt scope_nn of_in this_dt license._.
+
+3._. you_prp may_md opt_vb to_to apply_vb the_dt terms_nns of_in the_dt ordinary_jj gnu_nnp general_nnp public_nnp
+license_nnp instead_rb of_in this_dt license_nn to_to a_dt given_vbn copy_nn of_in the_dt library._nnp to_to do_vb
+this,_nn you_prp must_md alter_vb all_pdt the_dt notices_nns that_in refer_vbp to_to this_dt license,_nn so_rb
+that_in they_prp refer_vbp to_to the_dt ordinary_jj gnu_nnp general_nnp public_nnp license,_nnp version_nn 2,_cd
+instead_rb of_in to_to this_dt license._nnp (if_in a_dt newer_jjr version_nn than_in version_nn 2_cd of_in the_dt
+ordinary_jj gnu_nnp general_nnp public_nnp license_nnp has_vbz appeared,_rb then_rb you_prp can_md specify_vb
+that_dt version_nn instead_rb if_in you_prp wish.)_vbp do_vb not_rb make_vb any_dt other_jj change_nn in_in
+these_dt notices._nn
+
+once_rb this_dt change_nn is_vbz made_vbn in_in a_dt given_vbn copy,_nn it_prp is_vbz irreversible_jj for_in
+that_dt copy,_nn so_in the_dt ordinary_jj gnu_nnp general_nnp public_nnp license_nnp applies_vbz to_to all_pdt
+subsequent_jj copies_nns and_cc derivative_jj works_nns made_vbn from_in that_dt copy._nn
+
+this_dt option_nn is_vbz useful_jj when_wrb you_prp wish_vbp to_to copy_vb part_nn of_in the_dt code_nn of_in
+the_dt library_nnp into_in a_dt program_nn that_wdt is_vbz not_rb a_dt library._nn
+
+4._. you_prp may_md copy_vb and_cc distribute_vb the_dt library_jj (or_nn a_dt portion_nn or_cc
+derivative_jj of_in it,_nn under_in section_nn 2)_cd in_in object_nn code_nn or_cc executable_jj form_nn
+under_in the_dt terms_nns of_in sections_nnp 1_cd and_cc 2_cd above_in provided_vbn that_in you_prp accompany_vb
+it_prp with_in the_dt complete_jj corresponding_jj machine-readable_jj source_nn code,_nn which_wdt
+must_md be_vb distributed_vbn under_in the_dt terms_nns of_in sections_nnp 1_cd and_cc 2_cd above_in on_in a_dt
+medium_nn customarily_rb used_vbn for_in software_nn interchange._.
+
+if_in distribution_nn of_in object_nn code_nn is_vbz made_vbn by_in offering_vbg access_nn to_to copy_nn
+from_in a_dt designated_vbn place,_nn then_rb offering_vbg equivalent_jj access_nn to_to copy_vb the_dt
+source_nn code_nn from_in the_dt same_jj place_nn satisfies_vbz the_dt requirement_nn to_to
+distribute_vb the_dt source_nn code,_nn even_rb though_in third_jj parties_nns are_vbp not_rb
+compelled_vbn to_to copy_vb the_dt source_nn along_in with_in the_dt object_nn code._nn
+
+5._cd a_dt program_nn that_wdt contains_vbz no_dt derivative_nn of_in any_dt portion_nn of_in the_dt
+library,_nnp but_cc is_vbz designed_vbn to_to work_vb with_in the_dt library_jj by_in being_vbg compiled_vbn or_cc
+linked_vbn with_in it,_nn is_vbz called_vbn a_dt "work_nn that_wdt uses_vbz the_dt library"._nnp such_jj a_dt
+work,_nn in_in isolation,_nn is_vbz not_rb a_dt derivative_jj work_nn of_in the_dt library,_nnp and_cc
+therefore_rb falls_vbz outside_in the_dt scope_nn of_in this_dt license._.
+
+however,_rb linking_vbg a_dt "work_nn that_wdt uses_vbz the_dt library"_nnp with_in the_dt library_jj
+creates_vbz an_dt executable_nn that_wdt is_vbz a_dt derivative_nn of_in the_dt library_jj (because_nn it_prp
+contains_vbz portions_nns of_in the_dt library),_nnp rather_rb than_in a_dt "work_nn that_wdt uses_vbz the_dt
+library"._nn the_dt executable_nn is_vbz therefore_rb covered_vbn by_in this_dt license._.
+section_nn 6_cd states_nns terms_nns for_in distribution_nn of_in such_jj executables._nn
+
+when_wrb a_dt "work_nn that_wdt uses_vbz the_dt library"_nnp uses_vbz material_nn from_in a_dt header_nn file_nn
+that_dt is_vbz part_nn of_in the_dt library,_nnp the_dt object_nn code_nn for_in the_dt work_nn may_md be_vb a_dt
+derivative_jj work_nn of_in the_dt library_nnp even_rb though_in the_dt source_nn code_nn is_vbz not._vbg
+whether_in this_dt is_vbz true_jj is_vbz especially_rb significant_jj if_in the_dt work_nn can_md be_vb
+linked_vbn without_in the_dt library,_nnp or_cc if_in the_dt work_nn is_vbz itself_prp a_dt library._nn the_dt
+threshold_nn for_in this_dt to_to be_vb true_jj is_vbz not_rb precisely_rb defined_vbn by_in law._vbg
+
+if_in such_jj an_dt object_nn file_nn uses_vbz only_rb numerical_jj parameters,_nn data_nns
+structure_nn layouts_nns and_cc accessors,_nn and_cc small_jj macros_nns and_cc small_jj inline_nn
+functions_nns (ten_vbn lines_nns or_cc less_jjr in_in length),_nn then_rb the_dt use_nn of_in the_dt object_nn
+file_nn is_vbz unrestricted,_jj regardless_rb of_in whether_in it_prp is_vbz legally_rb a_dt derivative_nn
+work._nn (executables_nns containing_vbg this_dt object_nn code_nn plus_cc portions_nns of_in the_dt
+library_nnp will_md still_rb fall_vb under_in section_nn 6.)_cd
+
+otherwise,_jj if_in the_dt work_nn is_vbz a_dt derivative_nn of_in the_dt library,_nn you_prp may_md
+distribute_vb the_dt object_nn code_nn for_in the_dt work_nn under_in the_dt terms_nns of_in section_nn 6._.
+any_dt executables_nns containing_vbg that_dt work_nn also_rb fall_vb under_in section_nn 6,_cd
+whether_in or_cc not_rb they_prp are_vbp linked_vbn directly_rb with_in the_dt library_nnp itself._.
+
+6._. as_in an_dt exception_nn to_to the_dt sections_nns above,_in you_prp may_md also_rb combine_vb or_cc
+link_nn a_dt "work_nn that_wdt uses_vbz the_dt library"_nnp with_in the_dt library_nnp to_to produce_vb a_dt
+work_nn containing_vbg portions_nns of_in the_dt library,_nnp and_cc distribute_vb that_in work_nn
+under_in terms_nns of_in your_prp$ choice,_nn provided_vbd that_in the_dt terms_nns permit_vbp
+modification_nn of_in the_dt work_nn for_in the_dt customer's_nns own_jj use_nn and_cc reverse_nn
+engineering_nn for_in debugging_vbg such_jj modifications._nns
+
+you_prp must_md give_vb prominent_jj notice_nn with_in each_dt copy_nn of_in the_dt work_nn that_in the_dt
+library_nnp is_vbz used_vbn in_in it_prp and_cc that_in the_dt library_nnp and_cc its_prp$ use_nn are_vbp covered_vbn by_in
+this_dt license._nnp you_prp must_md supply_vb a_dt copy_nn of_in this_dt license._nnp if_in the_dt work_nn
+during_in execution_nn displays_nns copyright_jj notices,_nn you_prp must_md include_vb the_dt
+copyright_nn notice_nn for_in the_dt library_nnp among_in them,_prp as_rb well_rb as_in a_dt reference_nn
+directing_vbg the_dt user_nn to_to the_dt copy_nn of_in this_dt license._nnp also,_in you_prp must_md do_vb one_cd
+of_in these_dt things:_nns
+
+a)_nn accompany_nnp the_dt work_nn with_in the_dt complete_jj corresponding_jj
+machine-readable_jj source_nn code_nn for_in the_dt library_nnp including_vbg whatever_wdt
+changes_nns were_vbd used_vbn in_in the_dt work_nn (which_wdt must_md be_vb distributed_vbn under_in
+sections_nns 1_cd and_cc 2_cd above);_jj and,_cc if_in the_dt work_nn is_vbz an_dt executable_nn linked_vbn
+with_in the_dt library,_nnp with_in the_dt complete_jj machine-readable_jj "work_nn that_wdt
+uses_vbz the_dt library",_nnp as_in object_nn code_nn and/or_cc source_nn code,_nn so_rb that_in the_dt
+user_nn can_md modify_vb the_dt library_nnp and_cc then_rb relink_vb to_to produce_vb a_dt modified_vbn
+executable_nn containing_vbg the_dt modified_vbn library._nnp (it_nnp is_vbz understood_vbn
+that_in the_dt user_nn who_wp changes_vbz the_dt contents_nns of_in definitions_nns files_nns in_in the_dt
+library_nnp will_md not_rb necessarily_rb be_vb able_jj to_to recompile_vb the_dt application_nn
+to_to use_vb the_dt modified_jj definitions.)_nn
+
+b)_nn use_vb a_dt suitable_jj shared_vbn library_nn mechanism_nn for_in linking_vbg with_in the_dt
+library._nnp a_dt suitable_jj mechanism_nn is_vbz one_cd that_in (1)_jj uses_nns at_in run_nn time_nn a_dt
+copy_nn of_in the_dt library_nn already_rb present_rb on_in the_dt user's_nnp computer_nn system,_nn
+rather_rb than_in copying_vbg library_nn functions_nns into_in the_dt executable,_nn and_cc (2)_nn
+will_md operate_vb properly_rb with_in a_dt modified_vbn version_nn of_in the_dt library,_nn if_in
+the_dt user_nn installs_nns one,_rp as_rb long_rb as_in the_dt modified_vbn version_nn is_vbz
+interface-compatible_jj with_in the_dt version_nn that_in the_dt work_nn was_vbd made_vbn with._.
+
+c)_nn accompany_nnp the_dt work_nn with_in a_dt written_vbn offer,_nn valid_jj for_in at_in
+least_jjs three_cd years,_nns to_to give_vb the_dt same_jj user_nn the_dt materials_nns
+specified_vbn in_in subsection_nnp 6a,_cd above,_in for_in a_dt charge_nn no_rb more_rbr
+than_in the_dt cost_nn of_in performing_vbg this_dt distribution._nn
+
+d)_jj if_in distribution_nn of_in the_dt work_nn is_vbz made_vbn by_in offering_vbg access_nn to_to copy_nn
+from_in a_dt designated_vbn place,_nn offer_nn equivalent_jj access_nn to_to copy_vb the_dt above_jj
+specified_vbn materials_nns from_in the_dt same_jj place._nn
+
+e)_nn verify_nnp that_in the_dt user_nn has_vbz already_rb received_vbn a_dt copy_nn of_in these_dt
+materials_nns or_cc that_in you_prp have_vbp already_rb sent_vbn this_dt user_nn a_dt copy._nn
+
+for_in an_dt executable,_nn the_dt required_vbn form_nn of_in the_dt "work_nn that_wdt uses_vbz the_dt
+library"_nnp must_md include_vb any_dt data_nns and_cc utility_nn programs_nns needed_vbd for_in
+reproducing_vbg the_dt executable_nn from_in it._dt however,_nnp as_in a_dt special_jj exception,_nn
+the_dt materials_nns to_to be_vb distributed_vbn need_nn not_rb include_vb anything_nn that_wdt is_vbz
+normally_rb distributed_vbn (in_in either_dt source_nn or_cc binary_jj form)_nns with_in the_dt major_jj
+components_nns (compiler,_, kernel,_jj and_cc so_rb on)_in of_in the_dt operating_vbg system_nn on_in
+which_wdt the_dt executable_jj runs,_nn unless_in that_dt component_nn itself_prp accompanies_vbz
+the_dt executable._nn
+
+it_prp may_md happen_vb that_in this_dt requirement_nn contradicts_vbz the_dt license_nn
+restrictions_nns of_in other_jj proprietary_jj libraries_nns that_wdt do_vbp not_rb normally_rb
+accompany_vb the_dt operating_nn system._nn such_jj a_dt contradiction_nn means_vbz you_prp cannot_md
+use_nn both_dt them_prp and_cc the_dt library_nnp together_rb in_in an_dt executable_jj that_in you_prp
+distribute._nn
+
+7._. you_prp may_md place_vb library_nn facilities_nns that_wdt are_vbp a_dt work_nn based_vbn on_in the_dt
+library_jj side-by-side_nn in_in a_dt single_jj library_nn together_rb with_in other_jj library_nn
+facilities_nns not_rb covered_vbn by_in this_dt license,_nnp and_cc distribute_vb such_jj a_dt combined_vbn
+library,_nn provided_vbd that_in the_dt separate_jj distribution_nn of_in the_dt work_nn based_vbn on_in
+the_dt library_jj and_cc of_in the_dt other_jj library_nn facilities_nns is_vbz otherwise_rb
+permitted,_nn and_cc provided_vbd that_in you_prp do_vbp these_dt two_cd things:_nns
+
+a)_nn accompany_nnp the_dt combined_vbn library_nn with_in a_dt copy_nn of_in the_dt same_jj work_nn
+based_vbn on_in the_dt library,_nnp uncombined_jj with_in any_dt other_jj library_nn
+facilities._nn this_dt must_md be_vb distributed_vbn under_in the_dt terms_nns of_in the_dt
+sections_nns above._md
+
+b)_nn give_vb prominent_jj notice_nn with_in the_dt combined_jj library_nn of_in the_dt fact_nn
+that_in part_nn of_in it_prp is_vbz a_dt work_nn based_vbn on_in the_dt library,_nnp and_cc explaining_vbg
+where_wrb to_to find_vb the_dt accompanying_jj uncombined_jj form_nn of_in the_dt same_jj work._nn
+
+8._. you_prp may_md not_rb copy,_vb modify,_nn sublicense,_vbn link_nn with,_in or_cc distribute_vb
+the_dt library_nnp except_in as_in expressly_rb provided_vbn under_in this_dt license._nnp any_dt
+attempt_nn otherwise_rb to_to copy,_vb modify,_nn sublicense,_vbn link_nn with,_in or_cc
+distribute_vb the_dt library_nnp is_vbz void,_nn and_cc will_md automatically_rb terminate_vb your_prp$
+rights_nns under_in this_dt license._nnp however,_nnp parties_nns who_wp have_vbp received_vbn copies,_nns
+or_cc rights,_rb from_in you_prp under_in this_dt license_nn will_md not_rb have_vb their_prp$ licenses_nns
+terminated_vbn so_rb long_jj as_in such_jj parties_nns remain_vbp in_in full_jj compliance._nn
+
+9._dt you_prp are_vbp not_rb required_vbn to_to accept_vb this_dt license,_nn since_in you_prp have_vbp not_rb
+signed_vbn it._prp however,_in nothing_nn else_rb grants_vbz you_prp permission_nn to_to modify_vb or_cc
+distribute_vb the_dt library_jj or_cc its_prp$ derivative_jj works._nn these_dt actions_nns are_vbp
+prohibited_vbn by_in law_nn if_in you_prp do_vbp not_rb accept_vb this_dt license._nnp therefore,_nnp by_in
+modifying_nn or_cc distributing_vbg the_dt library_nnp (or_in any_dt work_nn based_vbn on_in the_dt
+library),_in you_prp indicate_vbp your_prp$ acceptance_nn of_in this_dt license_nn to_to do_vb so,_nn and_cc
+all_dt its_prp$ terms_nns and_cc conditions_nns for_in copying,_nn distributing_nn or_cc modifying_vbg
+the_dt library_nnp or_cc works_vbz based_vbn on_in it._prp$
+
+10._dt each_dt time_nn you_prp redistribute_vb the_dt library_jj (or_nn any_dt work_nn based_vbn on_in the_dt
+library),_in the_dt recipient_nn automatically_rb receives_vbz a_dt license_nn from_in the_dt
+original_jj licensor_nn to_to copy,_vb distribute,_vbn link_nn with_in or_cc modify_vb the_dt library_nnp
+subject_nn to_to these_dt terms_nns and_cc conditions._nn you_prp may_md not_rb impose_vb any_dt further_rbr
+restrictions_nns on_in the_dt recipients'_jj exercise_nn of_in the_dt rights_nns granted_vbn herein._.
+you_prp are_vbp not_rb responsible_jj for_in enforcing_vbg compliance_nn by_in third_jj parties_nns with_in
+this_dt license._nnp
+
+11._. if,_prp as_in a_dt consequence_nn of_in a_dt court_nn judgment_nn or_cc allegation_nn of_in patent_nn
+infringement_nn or_cc for_in any_dt other_jj reason_nn (not_rb limited_vbn to_to patent_nn issues),_nns
+conditions_nns are_vbp imposed_vbn on_in you_prp (whether_. by_in court_nn order,_nns agreement_nn or_cc
+otherwise)_jj that_in contradict_vbp the_dt conditions_nns of_in this_dt license,_nn they_prp do_vbp not_rb
+excuse_nn you_prp from_in the_dt conditions_nns of_in this_dt license._nnp if_in you_prp cannot_md
+distribute_vb so_rb as_rb to_to satisfy_vb simultaneously_rb your_prp$ obligations_nns under_in this_dt
+license_nn and_cc any_dt other_jj pertinent_jj obligations,_nn then_rb as_in a_dt consequence_nn you_prp
+may_md not_rb distribute_vb the_dt library_jj at_in all._dt for_in example,_nn if_in a_dt patent_nn
+license_nn would_md not_rb permit_vb royalty-free_jj redistribution_nn of_in the_dt library_nnp by_in
+all_pdt those_dt who_wp receive_vbp copies_nns directly_rb or_cc indirectly_rb through_in you,_prp then_rb
+the_dt only_jj way_nn you_prp could_md satisfy_vb both_dt it_prp and_cc this_dt license_nn would_md be_vb to_to
+refrain_vb entirely_rb from_in distribution_nn of_in the_dt library._nnp
+
+if_in any_dt portion_nn of_in this_dt section_nn is_vbz held_vbn invalid_jj or_cc unenforceable_jj under_in any_dt
+particular_jj circumstance,_nn the_dt balance_nn of_in the_dt section_nn is_vbz intended_vbn to_to apply,_vb
+and_cc the_dt section_nn as_in a_dt whole_nn is_vbz intended_vbn to_to apply_vb in_in other_jj circumstances._nn
+
+it_prp is_vbz not_rb the_dt purpose_nn of_in this_dt section_nn to_to induce_vb you_prp to_to infringe_vb any_dt
+patents_nns or_cc other_jj property_nn right_nn claims_nns or_cc to_to contest_vb validity_nn of_in any_dt
+such_jj claims;_nns this_dt section_nn has_vbz the_dt sole_jj purpose_nn of_in protecting_vbg the_dt
+integrity_nn of_in the_dt free_jj software_nn distribution_nn system_nn which_wdt is_vbz
+implemented_vbn by_in public_jj license_nn practices._nn many_jj people_nns have_vbp made_vbn
+generous_jj contributions_nns to_to the_dt wide_jj range_nn of_in software_nn distributed_vbn
+through_in that_dt system_nn in_in reliance_nn on_in consistent_jj application_nn of_in that_wdt
+system;_nn it_prp is_vbz up_rb to_to the_dt author/donor_nn to_to decide_vb if_in he_prp or_cc she_prp is_vbz willing_jj
+to_to distribute_vb software_nn through_in any_dt other_jj system_nn and_cc a_dt licensee_nn cannot_.
+impose_vb that_dt choice._nn
+
+this_dt section_nn is_vbz intended_vbn to_to make_vb thoroughly_rb clear_jj what_wp is_vbz believed_vbn to_to
+be_vb a_dt consequence_nn of_in the_dt rest_nn of_in this_dt license._.
+
+12._cd if_in the_dt distribution_nn and/or_in use_nn of_in the_dt library_nnp is_vbz restricted_vbn in_in
+certain_jj countries_nns either_cc by_in patents_nns or_cc by_in copyrighted_vbn interfaces,_nn the_dt
+original_jj copyright_nn holder_nn who_wp places_vbz the_dt library_nnp under_in this_dt license_nn may_md add_vb
+an_dt explicit_jj geographical_jj distribution_nn limitation_nn excluding_vbg those_dt countries,_nns
+so_rb that_in distribution_nn is_vbz permitted_vbn only_rb in_in or_cc among_in countries_nns not_rb thus_rb
+excluded._vbn in_in such_jj case,_nn this_dt license_nn incorporates_vbz the_dt limitation_nn as_in if_in
+written_vbn in_in the_dt body_nn of_in this_dt license._.
+
+13._`` the_dt free_nnp software_nnp foundation_nnp may_md publish_vb revised_vbn and/or_in new_jj
+versions_nns of_in the_dt lesser_nnp general_nnp public_nnp license_nnp from_in time_nn to_to time._md
+such_jj new_jj versions_nns will_md be_vb similar_jj in_in spirit_nn to_to the_dt present_jj version,_nn
+but_cc may_md differ_vb in_in detail_nn to_to address_vb new_jj problems_nns or_cc concerns._nn
+
+each_dt version_nn is_vbz given_vbn a_dt distinguishing_nn version_nn number._nn if_in the_dt library_nnp
+specifies_vbz a_dt version_nn number_nn of_in this_dt license_nn which_wdt applies_vbz to_to it_prp and_cc
+"any_nn later_rb version",_rb you_prp have_vbp the_dt option_nn of_in following_vbg the_dt terms_nns and_cc
+conditions_nns either_dt of_in that_dt version_nn or_cc of_in any_dt later_jj version_nn published_vbn by_in
+the_dt free_nnp software_nnp foundation._nnp if_in the_dt library_nnp does_vbz not_rb specify_vb a_dt
+license_nn version_nn number,_, you_prp may_md choose_vb any_dt version_nn ever_rb published_vbn by_in
+the_dt free_nnp software_nnp foundation._nnp
+
+14._`` if_in you_prp wish_vbp to_to incorporate_vb parts_nns of_in the_dt library_nnp into_in other_jj free_jj
+programs_nns whose_wp$ distribution_nn conditions_nns are_vbp incompatible_jj with_in these,_prp$
+write_vb to_to the_dt author_nn to_to ask_vb for_in permission._nn for_in software_nn which_wdt is_vbz
+copyrighted_vbn by_in the_dt free_nnp software_nnp foundation,_nnp write_vbp to_to the_dt free_nnp
+software_nnp foundation;_nnp we_prp sometimes_rb make_vbp exceptions_nns for_in this._dt our_prp$
+decision_nn will_md be_vb guided_vbn by_in the_dt two_cd goals_nns of_in preserving_vbg the_dt free_jj status_nn
+of_in all_dt derivatives_nns of_in our_prp$ free_jj software_nn and_cc of_in promoting_vbg the_dt sharing_vbg
+and_cc reuse_nn of_in software_nn generally._.
+
+no_dt warranty_nn
+
+15._. because_nnp the_dt library_nnp is_vbz licensed_vbn free_nn of_in charge,_jj there_jj is_vbz no_rb
+warranty_nnp for_in the_dt library,_nnp to_to the_dt extent_nnp permitted_nnp by_nnp applicable_nnp law._.
+except_nnp when_wrb otherwise_nnp stated_vbd in_in writing_nnp the_nnp copyright_nnp holders_nnp and/or_cc
+other_nnp parties_nns provide_nnp the_dt library_nnp "as_nnp is"_nnp without_nnp warranty_nnp of_in any_nnp
+kind,_nnp either_nnp expressed_nnp or_nnp implied,_nnp including,_nnp but_nnp not_nnp limited_nnp to,_nnp the_nnp
+implied_nnp warranties_nnps of_in merchantability_nnp and_cc fitness_nnp for_in a_dt particular_nn
+purpose._nnp the_dt entire_nnp risk_nnp as_in to_to the_dt quality_nn and_cc performance_nn of_in the_dt
+library_nnp is_vbz with_in you._prp should_md the_dt library_nnp prove_nn defective,_in you_prp assume_vbp
+the_dt cost_nn of_in all_nnp necessary_nnp servicing,_nnp repair_nnp or_nn correction._.
+
+16._. in_in no_dt event_nnp unless_nnp required_nnp by_nnp applicable_nnp law_nnp or_jj agreed_nnp to_to in_in
+writing_vbg will_nnp any_nnp copyright_nnp holder,_nnp or_nnp any_nnp other_nnp party_nnp who_wp may_nnp modify_nnp
+and/or_nnp redistribute_nnp the_dt library_nnp as_nnp permitted_nnp above,_nnp be_vb liable_nnp to_to you_prp
+for_in damages,_nnp including_nnp any_nnp general,_nnp special,_nnp incidental_nnp or_nn
+consequential_nnp damages_nnp arising_nnp out_nnp of_in the_dt use_nn or_jj inability_nn to_to use_nnp the_nnp
+library_nnp (including_nn but_nnp not_nnp limited_nnp to_to loss_vb of_in data_nnp or_jj data_nnp being_nn
+rendered_vbn inaccurate_nnp or_jj losses_nnp sustained_nnp by_nnp you_prp or_jj third_in parties_nns or_jj a_nn
+failure_vb of_in the_dt library_jj to_to operate_nnp with_in any_nnp other_nnp software),_nnp even_nnp if_in
+such_nnp holder_nnp or_nnp other_nnp party_nnp has_vbz been_nnp advised_nnp of_in the_dt possibility_nn of_in such_nnp
+damages._.
+
+end_nnp of_in terms_nnp and_cc conditions_nns
+
+how_wrb to_to apply_nnp these_dt terms_nns to_to your_prp$ new_nnp libraries_nnps
+
+if_in you_prp develop_vbp a_dt new_jj library,_nn and_cc you_prp want_vbp it_prp to_to be_vb of_in the_dt greatest_jjs
+possible_jj use_nn to_to the_dt public,_nn we_prp recommend_vbp making_vbg it_prp free_jj software_nn that_wdt
+everyone_nn can_md redistribute_vb and_cc change._dt you_prp can_md do_vb so_rb by_in permitting_vbg
+redistribution_nn under_in these_dt terms_nns (or,_vbp alternatively,_vbn under_in the_dt terms_nns of_in the_dt
+ordinary_jj general_nnp public_nnp license)._.
+
+to_to apply_vb these_dt terms,_nns attach_vbp the_dt following_vbg notices_nns to_to the_dt library._nn it_prp is_vbz
+safest_jjs to_to attach_vb them_prp to_to the_dt start_nn of_in each_dt source_nn file_vbp to_to most_rbs effectively_rb
+convey_vb the_dt exclusion_nn of_in warranty;_nns and_cc each_dt file_nn should_md have_vb at_in least_jjs the_dt
+"copyright"_jj line_nn and_cc a_dt pointer_nn to_to where_wrb the_dt full_jj notice_nn is_vbz found._vbn
+
+<one_nn line_nn to_to give_vb the_dt library's_nn name_nn and_cc a_dt brief_jj idea_nn of_in what_wp it_prp does.>_.
+copyright_nnp (c)_nnp <year>_nnp <name_nn of_in author>_nn
+
+this_dt library_nn is_vbz free_jj software;_nn you_prp can_md redistribute_vb it_prp and/or_cc
+modify_vb it_prp under_in the_dt terms_nns of_in the_dt gnu_nnp lesser_nnp general_nnp public_nnp
+license_nn as_in published_vbn by_in the_dt free_nnp software_nnp foundation;_nnp either_cc
+version_nn 2.1_cd of_in the_dt license,_nnp or_cc (at_in your_prp$ option)_nn any_dt later_rb version._.
+
+this_dt library_nn is_vbz distributed_vbn in_in the_dt hope_nn that_in it_prp will_md be_vb useful,_vbn
+but_cc without_nnp any_nnp warranty;_nnp without_in even_rb the_dt implied_vbn warranty_nn of_in
+merchantability_nn or_cc fitness_nnp for_in a_dt particular_nn purpose._nnp see_vb the_dt gnu_nn
+lesser_nnp general_nnp public_nnp license_nnp for_in more_jjr details._nn
+
+you_prp should_md have_vb received_vbn a_dt copy_nn of_in the_dt gnu_nnp lesser_nnp general_nnp public_nnp
+license_nn along_in with_in this_dt library;_nn if_in not,_rb write_vb to_to the_dt free_nnp software_nnp
+foundation,_nnp inc.,_nnp 59_cd temple_nnp place,_nnp suite_nnp 330,_cd boston,_nnp ma_nnp 02111-1307_cd usa_nnp
+
+also_rb add_vb information_nn on_in how_wrb to_to contact_vb you_prp by_in electronic_jj and_cc paper_nn mail._nn
+
+you_prp should_md also_rb get_vb your_prp$ employer_nn (if_in you_prp work_vbp as_in a_dt programmer)_nn or_cc your_prp$
+school,_nn if_in any,_nns to_to sign_vb a_dt "copyright_nn disclaimer"_nn for_in the_dt library,_nn if_in
+necessary._, here_rb is_vbz a_dt sample;_nn alter_vbp the_dt names:_nn
+
+yoyodyne,_nnp inc.,_nnp hereby_rb disclaims_vbz all_dt copyright_nn interest_nn in_in the_dt
+library_nn `frob'_nnp (a_nnp library_nn for_in tweaking_vbg knobs)_vbn written_vbn by_in james_nnp random_nnp hacker._nnp
+
+<signature_nn of_in ty_nnp coon>,_nnp 1_cd april_nnp 1990_cd
+ty_nnp coon,_nnp president_nnp of_in vice_nnp
+
+that's_nnp all_dt there_ex is_vbz to_to it!_md

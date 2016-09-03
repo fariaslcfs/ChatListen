@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.8" icons="false" automaticImage="PNG" always-add-relationships="false" 
+  generalizations="true" realizations="true" associations="true" dependencies="true" nesting-relationships="true">  
+  <class id="1" language="java" name="br.fatecsjc.controller.FXMLController" project="ChatListen" 
+    file="/ChatListen/src/main/java/br/fatecsjc/controller/FXMLController.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="351" y="224"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="br.fatecsjc.Facade" project="ChatListen" 
+    file="/ChatListen/src/main/java/br/fatecsjc/Facade.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="723" y="596"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="br.fatecsjc.Crud" project="ChatListen" 
+    file="/ChatListen/src/main/java/br/fatecsjc/Crud.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="238" y="427"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="br.fatecsjc.Mail" project="ChatListen" 
+    file="/ChatListen/src/main/java/br/fatecsjc/Mail.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="677" y="287"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="org.jivesoftware.smack.XMPPConnection" project="ChatListen" 
+    file="C:/Users/theone/.m2/repository/org/igniterealtime/smack/smack/3.2.1/smack-3.2.1.jar" binary="true" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="860" y="323"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="javafx.scene.control.Button" project="ChatListen" 
+    file="C:/Program Files/Java/jre1.8.0_60/lib/ext/jfxrt.jar" binary="true" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="152" y="183"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="javafx.scene.control.Label" project="ChatListen" 
+    file="C:/Program Files/Java/jre1.8.0_60/lib/ext/jfxrt.jar" binary="true" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="152" y="64"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="javafx.scene.control.TextArea" project="ChatListen" 
+    file="C:/Program Files/Java/jre1.8.0_60/lib/ext/jfxrt.jar" binary="true" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="152" y="274"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="javafx.scene.control.PasswordField" project="ChatListen" 
+    file="C:/Program Files/Java/jre1.8.0_60/lib/ext/jfxrt.jar" binary="true" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="284" y="64"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="javafx.concurrent.Task" project="ChatListen" 
+    file="C:/Program Files/Java/jre1.8.0_60/lib/ext/jfxrt.jar" binary="true" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="584" y="63"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="javafx.scene.control.TextField" project="ChatListen" 
+    file="C:/Program Files/Java/jre1.8.0_60/lib/ext/jfxrt.jar" binary="true" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="430" y="64"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="br.fatecsjc.ChatListeningTasks" project="ChatListen" 
+    file="/ChatListen/src/main/java/br/fatecsjc/ChatListeningTasks.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="834" y="102"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="java.lang.Thread" project="ChatListen" 
+    file="C:/Program Files/Java/jre1.8.0_60/lib/rt.jar" binary="true" corner="BOTTOM_RIGHT">    
+    <position height="71" width="83" x="550" y="146"/>    
+    <display autosize="false" stereotype="false" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="br.fatecsjc.controller.MessagesJpaController" project="ChatListen" 
+    file="/ChatListen/src/main/java/br/fatecsjc/controller/MessagesJpaController.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="570" y="353"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" name="br.fatecsjc.PostClassification" project="ChatListen" 
+    file="/ChatListen/src/main/java/br/fatecsjc/PostClassification.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="233" y="585"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="16" language="java" name="br.fatecsjc.SentiWordNetScore" project="ChatListen" 
+    file="/ChatListen/src/main/java/br/fatecsjc/SentiWordNetScore.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="168" y="716"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="17" language="java" name="br.fatecsjc.Neural" project="ChatListen" 
+    file="/ChatListen/src/main/java/br/fatecsjc/Neural.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="706" y="366"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <class id="18" language="java" name="br.fatecsjc.TrainnerNN" project="ChatListen" 
+    file="/ChatListen/src/main/java/br/fatecsjc/TrainnerNN.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="602" y="418"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="true"/>      
+      <operations public="false" package="false" protected="false" private="false" static="true"/>    
+    </display>  
+  </class>  
+  <association id="19">    
+    <bendpoint x="161" y="243"/>    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="20" name="bot_iniciar"/>      
+      <multiplicity id="21" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <association id="22">    
+    <bendpoint x="701" y="58"/>    
+    <end type="SOURCE" refId="12" navigable="false">      
+      <attribute id="23" name="taskAlarme">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="24" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <dependency id="25">    
+    <bendpoint x="596" y="280"/>    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="14"/>  
+  </dependency>  
+  <association id="26">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="27" name="bot_espiar"/>      
+      <multiplicity id="28" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <association id="29">    
+    <end type="SOURCE" refId="12" navigable="false">      
+      <attribute id="30" name="taskScore"/>      
+      <multiplicity id="31" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <association id="32">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="33" name="bot_sair"/>      
+      <multiplicity id="34" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <association id="35">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="36" name="tScore"/>      
+      <multiplicity id="37" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="13" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <dependency id="38">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <dependency id="39">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="16"/>  
+  </dependency>  
+  <association id="40">    
+    <bendpoint x="542" y="277"/>    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="41" name="clt">        
+        <position height="0" width="0" x="6" y="-76"/>      
+      </attribute>      
+      <multiplicity id="42" minimum="0" maximum="1">        
+        <position height="0" width="0" x="6" y="-76"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="12" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <association id="43">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="44" name="txt_usuario">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="45" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <dependency id="46">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="17"/>  
+  </dependency>  
+  <association id="47">    
+    <bendpoint x="501" y="215"/>    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="48" name="tAlarme">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="49" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="13" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <dependency id="50">    
+    <bendpoint x="502" y="470"/>    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="14"/>  
+  </dependency>  
+  <association id="51">    
+    <bendpoint x="219" y="278"/>    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="52" name="txt_chat">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="53" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <association id="54">    
+    <end type="SOURCE" refId="12" navigable="false">      
+      <attribute id="55" name="xmppConnection">        
+        <position height="0" width="0" x="132" y="-54"/>      
+      </attribute>      
+      <multiplicity id="56" minimum="0" maximum="1">        
+        <position height="0" width="0" x="132" y="-54"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <association id="57">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="58" name="tAlarmeScore"/>      
+      <multiplicity id="59" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="13" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <association id="60">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="61" name="lab_prob"/>      
+      <multiplicity id="62" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <association id="63">    
+    <bendpoint x="679" y="99"/>    
+    <end type="SOURCE" refId="12" navigable="false">      
+      <attribute id="64" name="taskInicia">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="65" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <dependency id="66">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="10"/>  
+  </dependency>  
+  <dependency id="67">    
+    <bendpoint x="554" y="284"/>    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <association id="68">    
+    <bendpoint x="219" y="141"/>    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="69" name="bot_score"/>      
+      <multiplicity id="70" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <dependency id="71">    
+    <bendpoint x="469" y="540"/>    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <dependency id="72">    
+    <bendpoint x="437" y="636"/>    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="15"/>  
+  </dependency>  
+  <association id="73">    
+    <end type="SOURCE" refId="12" navigable="false">      
+      <attribute id="74" name="taskLimpa">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="75" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <association id="76">    
+    <bendpoint x="258" y="109"/>    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="77" name="lab_alarme">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="78" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <association id="79">    
+    <end type="SOURCE" refId="12" navigable="false">      
+      <attribute id="80" name="taskAlarmeScore"/>      
+      <multiplicity id="81" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <dependency id="82">    
+    <bendpoint x="762" y="338"/>    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <dependency id="83">    
+    <bendpoint x="678" y="454"/>    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="17"/>  
+  </dependency>  
+  <association id="84">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="85" name="txt_senha">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="86" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <dependency id="87">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="13"/>  
+  </dependency>  
+  <association id="88">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="89" name="tLimpa">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="90" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="13" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <association id="91">    
+    <bendpoint x="501" y="174"/>    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="92" name="tInicia">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="93" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="13" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <association id="94">    
+    <end type="SOURCE" refId="18" navigable="false">      
+      <attribute id="95" name="melhorRna"/>      
+      <multiplicity id="96" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="17" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <association id="97">    
+    <bendpoint x="180" y="234"/>    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="98" name="bot_limpar"/>      
+      <multiplicity id="99" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <generalization id="100">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="11"/>  
+  </generalization>  
+  <association id="101">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="102" name="crud">        
+        <position height="0" width="0" x="-6" y="-158"/>      
+      </attribute>      
+      <multiplicity id="103" minimum="0" maximum="1">        
+        <position height="0" width="0" x="-6" y="-158"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <dependency id="104">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="18"/>  
+  </dependency>  
+  <association id="105">    
+    <end type="SOURCE" refId="12" navigable="false">      
+      <attribute id="106" name="mail">        
+        <position height="0" width="0" x="-212" y="-96"/>      
+      </attribute>      
+      <multiplicity id="107" minimum="0" maximum="1">        
+        <position height="0" width="0" x="-212" y="-96"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <association id="108">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="109" name="bot_parar">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="110" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <association id="111">    
+    <bendpoint x="396" y="416"/>    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="112" name="daoMessages">        
+        <position height="0" width="0" x="18" y="-8"/>      
+      </attribute>      
+      <multiplicity id="113" minimum="0" maximum="1">        
+        <position height="0" width="0" x="18" y="-8"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="false" package="true" initial-value="true" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="false" package="false" protected="false" private="false" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="false" multiplicity="false"/>
+</class-diagram>

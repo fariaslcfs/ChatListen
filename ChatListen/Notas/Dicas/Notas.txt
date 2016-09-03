@@ -1,0 +1,3 @@
+Procurar em cada arquivo de predador pelas palavras especiais e somar as ocorrências;
+Classificar cada palavra pelo SentiWordNet;
+Criar um vetor contendo: pos:0-1, neg:0-1, palesp1:qtd, palesp2:qtd, palespn:qtd, tipopess:0/1.
