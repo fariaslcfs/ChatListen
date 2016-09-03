@@ -1,0 +1,33 @@
+Teste RNA
+CO-3 TxApr-0.01 Fm-0.63 ErroAtr-0.1
+SIM --> Vector #0 - NPS -->0,361733
+SIM --> Vector #1 - NPS -->0,242691
+SIM --> Vector #2 - NPS -->0,384167
+SIM --> Vector #3 - NPS -->0,327529
+SIM --> Vector #4 - NPS -->0,312448
+SIM --> Vector #5 - CYBER -->0,131536
+NÃO --> Vector #6 - CYBER -->0,505893
+SIM --> Vector #7 - CYBER -->0,283387
+SIM --> Vector #8 - CYBER -->0,273005
+SIM --> Vector #9 - CYBER -->0,191981
+NÃO --> Vector #10 - CYBER -->0,611991
+SIM --> Vector #11 - CYBER -->0,308364
+SIM --> Vector #12 - CYBER -->0,252620
+SIM --> Vector #13 - CYBER -->0,491728
+SIM --> Vector #14 - CYBER -->0,265751
+SIM --> Vector #15 - CYBER -->0,249529
+SIM --> Vector #16 - CYBER -->0,302220
+SIM --> Vector #17 - CYBER -->0,343838
+SIM --> Vector #18 - PRED -->0,399034
+NÃO --> Vector #19 - PRED -->0,591184
+SIM --> Vector #20 - PRED -->0,241199
+SIM --> Vector #21 - PRED -->0,410074
+NÃO --> Vector #22 - PRED -->0,535153
+NÃO --> Vector #23 - PRED -->0,629741
+SIM --> Vector #24 - PRED -->0,356479
+NÃO --> Vector #25 - PRED -->0,702268
+SIM --> Vector #26 - PRED -->0,238202
+SIM --> Vector #27 - PRED -->0,101940
+NÃO --> Vector #28 - PRED -->0,822752
+NÃO --> Vector #29 - PRED -->0,957539
+NÃO --> Vector #30 - PRED -->0,509009
