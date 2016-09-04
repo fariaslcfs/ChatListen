@@ -46,7 +46,7 @@ public class MainApp extends Application {
 		//facade.generateVectorsFilesFromFiles();
 	
 		//facade.fileIntoTable("LogsPred/arqPred-300.txt");
-		launch();
+		//launch();
 
 /*			
 		Integer esperado = 1, entradas = 17, co = 5, epocas = 10000, cont = 0, iter = 0;

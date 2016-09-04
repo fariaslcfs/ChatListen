@@ -52,6 +52,7 @@ public class ChatListeningTasks {
 			this.connect("chat.facebook.com", 5222, "ChatListen");
 			xmppConnection.login(username, password);
 		} catch (Exception e) {
+			System.err.println(e);
 		}
 	}
 
