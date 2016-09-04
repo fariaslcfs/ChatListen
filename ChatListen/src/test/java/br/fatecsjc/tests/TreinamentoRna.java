@@ -1,3 +1,5 @@
+package br.fatecsjc.tests;
+
 public class TreinamentoRna {
     
     private Rna melhorRna;

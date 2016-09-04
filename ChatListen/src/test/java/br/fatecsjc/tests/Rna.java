@@ -1,3 +1,5 @@
+package br.fatecsjc.tests;
+
 public class Rna implements Cloneable {
     
     private Integer quantidadeEntradas = 0;
