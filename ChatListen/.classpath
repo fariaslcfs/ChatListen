@@ -28,17 +28,5 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="/home/lsiauser/Downloads/facebook-java-api-1.7.2.jar"/>
-	<classpathentry kind="lib" path="/home/lsiauser/Downloads/facebook-util-1.7.2.jar"/>
-	<classpathentry kind="lib" path="/home/lsiauser/.m2/repository/org/facebook4j/facebook4j-core/2.4.12/facebook4j-core-2.4.12.jar">
-		<attributes>
-			<attribute name="maven.pomderived" value="true"/>
-			<attribute name="maven.groupId" value="org.facebook4j"/>
-			<attribute name="maven.artifactId" value="facebook4j-core"/>
-			<attribute name="maven.version" value="2.4.12"/>
-			<attribute name="maven.scope" value="compile"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="/home/lsiauser/Downloads/json-lib-2.4-jdk15.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

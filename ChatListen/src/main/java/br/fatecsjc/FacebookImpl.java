@@ -26,9 +26,9 @@ public class FacebookImpl {
 		confBuilder.setDebugEnabled(true);
 
 		// Set application id, secret key and access token
-        confBuilder.setOAuthAppId("8282887");
-        confBuilder.setOAuthAppSecret("c3jhdhjhuh");
-        confBuilder.setOAuthAccessToken("2jskjdbjbdjb");
+        confBuilder.setOAuthAppId("490517804766325");
+        confBuilder.setOAuthAppSecret("356bda4c4f38222934f8e5387406db20");
+        confBuilder.setOAuthAccessToken("490517804766325|kuqG2o01qk0XCLpzvOEMSl3XuBY");
 
         // Set permission
         confBuilder.setOAuthPermissions("email,publish_stream, id, name, first_name, last_name, generic");

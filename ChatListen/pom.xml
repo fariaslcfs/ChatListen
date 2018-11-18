@@ -20,7 +20,6 @@
 		<!-- Used as the 'Vendor' for JNLP generation -->
 		<name>fatecsjc</name>
 	</organization>
-
 	<dependencies>
 		<dependency>
 			<groupId>junit</groupId>
@@ -69,7 +68,12 @@
 			<artifactId>facebook4j-core</artifactId>
 			<version>2.4.12</version>
 		</dependency>
-
+		<dependency>
+			<groupId>net.sf.json-lib</groupId>
+			<artifactId>json-lib</artifactId>
+			<version>2.4</version>
+			<classifier>jdk15</classifier>
+		</dependency>
 
 	</dependencies>
 
